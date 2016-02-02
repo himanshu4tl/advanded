@@ -1,0 +1,136 @@
+2015-10-17 22:12:39 [-][-][-][error][yii\console\Exception] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "flush".' in C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\console\Application.php(161): yii\base\Module->runAction('flush', Array)
+#1 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\console\Application.php(137): yii\console\Application->runAction('flush', Array)
+#2 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 C:\xampp\htdocs\test\advanced\yii(31): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\Exception' with message 'Unknown command "flush".' in C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\console\Application.php:163
+Stack trace:
+#0 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\console\Application.php(137): yii\console\Application->runAction('flush', Array)
+#1 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 C:\xampp\htdocs\test\advanced\yii(31): yii\base\Application->run()
+#3 {main}
+2015-10-17 22:12:39 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Himanshu\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'LALO'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Himanshu'
+    'LOCALAPPDATA' => 'C:\\Users\\Himanshu\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MicrosoftAccount'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Program Files\\Java\\jdk1.8.0_45\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Git\\cmd;c:\\xampp\\php;C:\\Program Files\\subversion\\bin;C:\\Program Files\\Java\\jre1.8.0_45\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 15 Stepping 13, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '0f0d'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\Himanshu\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\Himanshu\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'LALO'
+    'USERDOMAIN_ROAMINGPROFILE' => 'LALO'
+    'USERNAME' => 'Himanshu'
+    'USERPROFILE' => 'C:\\Users\\Himanshu'
+    'windir' => 'C:\\Windows'
+    'YII_PATH' => 'C:\\xampp\\htdocs\\test\\advanced\\'
+    'PHP_SELF' => 'C:\\xampp\\htdocs\\test\\advanced\\yii'
+    'SCRIPT_NAME' => 'C:\\xampp\\htdocs\\test\\advanced\\yii'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\test\\advanced\\yii'
+    'PATH_TRANSLATED' => 'C:\\xampp\\htdocs\\test\\advanced\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1445112759.9078
+    'REQUEST_TIME' => 1445112759
+    'argv' => [
+        0 => 'C:\\xampp\\htdocs\\test\\advanced\\yii'
+        1 => 'flush'
+    ]
+    'argc' => 2
+]
+2015-10-17 22:12:52 [-][-][-][error][yii\console\Exception] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "cache\flush".' in C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\console\Application.php(161): yii\base\Module->runAction('cache\\flush', Array)
+#1 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\console\Application.php(137): yii\console\Application->runAction('cache\\flush', Array)
+#2 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 C:\xampp\htdocs\test\advanced\yii(31): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\Exception' with message 'Unknown command "cache\flush".' in C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\console\Application.php:163
+Stack trace:
+#0 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\console\Application.php(137): yii\console\Application->runAction('cache\\flush', Array)
+#1 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 C:\xampp\htdocs\test\advanced\yii(31): yii\base\Application->run()
+#3 {main}
+2015-10-17 22:12:52 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Himanshu\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'LALO'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Himanshu'
+    'LOCALAPPDATA' => 'C:\\Users\\Himanshu\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MicrosoftAccount'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Program Files\\Java\\jdk1.8.0_45\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Git\\cmd;c:\\xampp\\php;C:\\Program Files\\subversion\\bin;C:\\Program Files\\Java\\jre1.8.0_45\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 15 Stepping 13, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '0f0d'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\Himanshu\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\Himanshu\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'LALO'
+    'USERDOMAIN_ROAMINGPROFILE' => 'LALO'
+    'USERNAME' => 'Himanshu'
+    'USERPROFILE' => 'C:\\Users\\Himanshu'
+    'windir' => 'C:\\Windows'
+    'YII_PATH' => 'C:\\xampp\\htdocs\\test\\advanced\\'
+    'PHP_SELF' => 'C:\\xampp\\htdocs\\test\\advanced\\yii'
+    'SCRIPT_NAME' => 'C:\\xampp\\htdocs\\test\\advanced\\yii'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\test\\advanced\\yii'
+    'PATH_TRANSLATED' => 'C:\\xampp\\htdocs\\test\\advanced\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1445112772.8253
+    'REQUEST_TIME' => 1445112772
+    'argv' => [
+        0 => 'C:\\xampp\\htdocs\\test\\advanced\\yii'
+        1 => 'cache\\flush'
+    ]
+    'argc' => 2
+]

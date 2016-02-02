@@ -1,0 +1,2474 @@
+2015-10-17 23:53:53 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/signup' in C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('signup', Array)
+#1 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/signup', Array)
+#2 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\xampp\htdocs\test\advanced\backend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\test\advanced\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-10-17 23:53:53 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/signup'
+]
+
+$_COOKIE = [
+    '__atuvc' => '2|29'
+    'ajs_user_id' => 'null'
+    'ajs_group_id' => 'null'
+    'mp_b0bec09f10951d12fcd8c74ab4983f52_mixpanel' => '{\"distinct_id\": \"14edfe4206760-0a6399ad7-434c062d-ff000-14edfe4206855\",\"$initial_referrer\": \"$direct\",\"$initial_referring_domain\": \"$direct\"}'
+    '_ga' => 'GA1.1.1702455467.1437280017'
+    'hsfirstvisit' => 'http://localhost/scrapper/tests/test.php||1438363203003'
+    '__distillery' => 'v20150227_0cd23d29-3eda-4669-ae75-5f78f669caa8'
+    '__hstc' => '181257784.b4f1e3d1ed5cdcba3e78a2047e866c0a.1438363203009.1438363203009.1438496204406.2'
+    'hubspotutk' => 'b4f1e3d1ed5cdcba3e78a2047e866c0a'
+    '_csrf' => 'c5937d4abee8a1afbb6557e2523653adf3af0568f3189c3e98826f1a9ccf3effa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"tRIbIvQqU_LmJNj82jFFyk_iNnYUhTg2\";}'
+    'PHPSESSID' => '8lisp399s89uoe8njgciel8jm0'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '__atuvc=2%7C29; ajs_user_id=null; ajs_group_id=null; mp_b0bec09f10951d12fcd8c74ab4983f52_mixpanel=%7B%22distinct_id%22%3A%20%2214edfe4206760-0a6399ad7-434c062d-ff000-14edfe4206855%22%2C%22%24initial_referrer%22%3A%20%22%24direct%22%2C%22%24initial_referring_domain%22%3A%20%22%24direct%22%7D; _ga=GA1.1.1702455467.1437280017; hsfirstvisit=http%3A%2F%2Flocalhost%2Fscrapper%2Ftests%2Ftest.php||1438363203003; __distillery=v20150227_0cd23d29-3eda-4669-ae75-5f78f669caa8; __hstc=181257784.b4f1e3d1ed5cdcba3e78a2047e866c0a.1438363203009.1438363203009.1438496204406.2; hubspotutk=b4f1e3d1ed5cdcba3e78a2047e866c0a; _csrf=c5937d4abee8a1afbb6557e2523653adf3af0568f3189c3e98826f1a9ccf3effa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22tRIbIvQqU_LmJNj82jFFyk_iNnYUhTg2%22%3B%7D; PHPSESSID=8lisp399s89uoe8njgciel8jm0'
+    'PATH' => 'C:\\Program Files\\Java\\jdk1.8.0_45\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Git\\cmd;c:\\xampp\\php;C:\\Program Files\\subversion\\bin;C:\\Program Files\\Java\\jre1.8.0_45\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/test/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '51205'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fsignup'
+    'REQUEST_URI' => '/test/advanced/backend/web/index.php?r=site%2Fsignup'
+    'SCRIPT_NAME' => '/test/advanced/backend/web/index.php'
+    'PHP_SELF' => '/test/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1445118833.349
+    'REQUEST_TIME' => 1445118833
+]
+2015-10-18 00:07:47 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('gii', Array)
+#1 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\test\advanced\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\test\advanced\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-10-18 00:07:46 [::1][-][-][info][application] $_GET = [
+    'r' => 'gii'
+]
+
+$_COOKIE = [
+    '__atuvc' => '2|29'
+    'ajs_user_id' => 'null'
+    'ajs_group_id' => 'null'
+    'mp_b0bec09f10951d12fcd8c74ab4983f52_mixpanel' => '{\"distinct_id\": \"14edfe4206760-0a6399ad7-434c062d-ff000-14edfe4206855\",\"$initial_referrer\": \"$direct\",\"$initial_referring_domain\": \"$direct\"}'
+    '_ga' => 'GA1.1.1702455467.1437280017'
+    'hsfirstvisit' => 'http://localhost/scrapper/tests/test.php||1438363203003'
+    '__distillery' => 'v20150227_0cd23d29-3eda-4669-ae75-5f78f669caa8'
+    '__hstc' => '181257784.b4f1e3d1ed5cdcba3e78a2047e866c0a.1438363203009.1438363203009.1438496204406.2'
+    'hubspotutk' => 'b4f1e3d1ed5cdcba3e78a2047e866c0a'
+    'PHPSESSID' => '8lisp399s89uoe8njgciel8jm0'
+    '_csrf' => '3c0dbdea11557006263ddde0683a2436fea7a8ca7d47052f98e279417c8a5512a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"etl6ymsqmASuMiX2W38ektgpNBYwXRpz\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '__atuvc=2%7C29; ajs_user_id=null; ajs_group_id=null; mp_b0bec09f10951d12fcd8c74ab4983f52_mixpanel=%7B%22distinct_id%22%3A%20%2214edfe4206760-0a6399ad7-434c062d-ff000-14edfe4206855%22%2C%22%24initial_referrer%22%3A%20%22%24direct%22%2C%22%24initial_referring_domain%22%3A%20%22%24direct%22%7D; _ga=GA1.1.1702455467.1437280017; hsfirstvisit=http%3A%2F%2Flocalhost%2Fscrapper%2Ftests%2Ftest.php||1438363203003; __distillery=v20150227_0cd23d29-3eda-4669-ae75-5f78f669caa8; __hstc=181257784.b4f1e3d1ed5cdcba3e78a2047e866c0a.1438363203009.1438363203009.1438496204406.2; hubspotutk=b4f1e3d1ed5cdcba3e78a2047e866c0a; PHPSESSID=8lisp399s89uoe8njgciel8jm0; _csrf=3c0dbdea11557006263ddde0683a2436fea7a8ca7d47052f98e279417c8a5512a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22etl6ymsqmASuMiX2W38ektgpNBYwXRpz%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\Java\\jdk1.8.0_45\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Git\\cmd;c:\\xampp\\php;C:\\Program Files\\subversion\\bin;C:\\Program Files\\Java\\jre1.8.0_45\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/test/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '51243'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=gii'
+    'REQUEST_URI' => '/test/advanced/backend/web/index.php?r=gii'
+    'SCRIPT_NAME' => '/test/advanced/backend/web/index.php'
+    'PHP_SELF' => '/test/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1445119666.306
+    'REQUEST_TIME' => 1445119666
+]
+2015-10-18 00:20:28 [::1][-][-][error][yii\base\ErrorException:4096] exception 'yii\base\ErrorException' with message 'Argument 1 passed to yii\web\User::login() must implement interface yii\web\IdentityInterface, null given, called in C:\xampp\htdocs\test\advanced\common\models\LoginForm.php on line 60 and defined' in C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\User.php:233
+Stack trace:
+#0 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\User.php(233): yii\base\ErrorHandler->handleError(4096, 'Argument 1 pass...', 'C:\\xampp\\htdocs...', 233, Array)
+#1 C:\xampp\htdocs\test\advanced\common\models\LoginForm.php(60): yii\web\User->login(NULL, 2592000)
+#2 C:\xampp\htdocs\test\advanced\backend\controllers\SiteController.php(68): common\models\LoginForm->login()
+#3 [internal function]: backend\controllers\SiteController->actionLogin()
+#4 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('login', Array)
+#7 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/login', Array)
+#8 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\test\advanced\backend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2015-10-18 00:20:28 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = [
+    '_csrf' => 'TkVLTnNfMHIrMSd4CjJDAyMEGDs.NmhAGXZzKxgrVwIABxI5Kw1ACA=='
+    'LoginForm' => [
+        'username' => 'himanshu53939@gmail.com'
+        'password' => '111111'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_COOKIE = [
+    '__atuvc' => '2|29'
+    'ajs_user_id' => 'null'
+    'ajs_group_id' => 'null'
+    'mp_b0bec09f10951d12fcd8c74ab4983f52_mixpanel' => '{\"distinct_id\": \"14edfe4206760-0a6399ad7-434c062d-ff000-14edfe4206855\",\"$initial_referrer\": \"$direct\",\"$initial_referring_domain\": \"$direct\"}'
+    '_ga' => 'GA1.1.1702455467.1437280017'
+    'hsfirstvisit' => 'http://localhost/scrapper/tests/test.php||1438363203003'
+    '__distillery' => 'v20150227_0cd23d29-3eda-4669-ae75-5f78f669caa8'
+    '__hstc' => '181257784.b4f1e3d1ed5cdcba3e78a2047e866c0a.1438363203009.1438363203009.1438496204406.2'
+    'hubspotutk' => 'b4f1e3d1ed5cdcba3e78a2047e866c0a'
+    'PHPSESSID' => '8lisp399s89uoe8njgciel8jm0'
+    '_csrf' => '3c0dbdea11557006263ddde0683a2436fea7a8ca7d47052f98e279417c8a5512a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"etl6ymsqmASuMiX2W38ektgpNBYwXRpz\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '217'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://localhost/test/advanced/backend/web/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '__atuvc=2%7C29; ajs_user_id=null; ajs_group_id=null; mp_b0bec09f10951d12fcd8c74ab4983f52_mixpanel=%7B%22distinct_id%22%3A%20%2214edfe4206760-0a6399ad7-434c062d-ff000-14edfe4206855%22%2C%22%24initial_referrer%22%3A%20%22%24direct%22%2C%22%24initial_referring_domain%22%3A%20%22%24direct%22%7D; _ga=GA1.1.1702455467.1437280017; hsfirstvisit=http%3A%2F%2Flocalhost%2Fscrapper%2Ftests%2Ftest.php||1438363203003; __distillery=v20150227_0cd23d29-3eda-4669-ae75-5f78f669caa8; __hstc=181257784.b4f1e3d1ed5cdcba3e78a2047e866c0a.1438363203009.1438363203009.1438496204406.2; hubspotutk=b4f1e3d1ed5cdcba3e78a2047e866c0a; PHPSESSID=8lisp399s89uoe8njgciel8jm0; _csrf=3c0dbdea11557006263ddde0683a2436fea7a8ca7d47052f98e279417c8a5512a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22etl6ymsqmASuMiX2W38ektgpNBYwXRpz%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\Java\\jdk1.8.0_45\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Git\\cmd;c:\\xampp\\php;C:\\Program Files\\subversion\\bin;C:\\Program Files\\Java\\jre1.8.0_45\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/test/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '51419'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/test/advanced/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/test/advanced/backend/web/index.php'
+    'PHP_SELF' => '/test/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1445120428.513
+    'REQUEST_TIME' => 1445120428
+]
+2015-10-18 00:22:02 [::1][-][-][error][yii\base\ErrorException:4096] exception 'yii\base\ErrorException' with message 'Argument 1 passed to yii\web\User::login() must implement interface yii\web\IdentityInterface, null given, called in C:\xampp\htdocs\test\advanced\common\models\LoginForm.php on line 59 and defined' in C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\User.php:233
+Stack trace:
+#0 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\User.php(233): yii\base\ErrorHandler->handleError(4096, 'Argument 1 pass...', 'C:\\xampp\\htdocs...', 233, Array)
+#1 C:\xampp\htdocs\test\advanced\common\models\LoginForm.php(59): yii\web\User->login(NULL, 2592000)
+#2 C:\xampp\htdocs\test\advanced\backend\controllers\SiteController.php(68): common\models\LoginForm->login()
+#3 [internal function]: backend\controllers\SiteController->actionLogin()
+#4 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('login', Array)
+#7 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/login', Array)
+#8 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\test\advanced\backend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2015-10-18 00:22:01 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = [
+    '_csrf' => 'Qk1YcTU1MUcnOTRHTFhCNi8MCwR4XGl1FX5gFF5BVjcMDwEGbWdBPQ=='
+    'LoginForm' => [
+        'username' => 'himanshu53939@gmail.com'
+        'password' => '111111'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_COOKIE = [
+    '__atuvc' => '2|29'
+    'ajs_user_id' => 'null'
+    'ajs_group_id' => 'null'
+    'mp_b0bec09f10951d12fcd8c74ab4983f52_mixpanel' => '{\"distinct_id\": \"14edfe4206760-0a6399ad7-434c062d-ff000-14edfe4206855\",\"$initial_referrer\": \"$direct\",\"$initial_referring_domain\": \"$direct\"}'
+    '_ga' => 'GA1.1.1702455467.1437280017'
+    'hsfirstvisit' => 'http://localhost/scrapper/tests/test.php||1438363203003'
+    '__distillery' => 'v20150227_0cd23d29-3eda-4669-ae75-5f78f669caa8'
+    '__hstc' => '181257784.b4f1e3d1ed5cdcba3e78a2047e866c0a.1438363203009.1438363203009.1438496204406.2'
+    'hubspotutk' => 'b4f1e3d1ed5cdcba3e78a2047e866c0a'
+    'PHPSESSID' => '8lisp399s89uoe8njgciel8jm0'
+    '_csrf' => '3c0dbdea11557006263ddde0683a2436fea7a8ca7d47052f98e279417c8a5512a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"etl6ymsqmASuMiX2W38ektgpNBYwXRpz\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '217'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://localhost/test/advanced/backend/web/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '__atuvc=2%7C29; ajs_user_id=null; ajs_group_id=null; mp_b0bec09f10951d12fcd8c74ab4983f52_mixpanel=%7B%22distinct_id%22%3A%20%2214edfe4206760-0a6399ad7-434c062d-ff000-14edfe4206855%22%2C%22%24initial_referrer%22%3A%20%22%24direct%22%2C%22%24initial_referring_domain%22%3A%20%22%24direct%22%7D; _ga=GA1.1.1702455467.1437280017; hsfirstvisit=http%3A%2F%2Flocalhost%2Fscrapper%2Ftests%2Ftest.php||1438363203003; __distillery=v20150227_0cd23d29-3eda-4669-ae75-5f78f669caa8; __hstc=181257784.b4f1e3d1ed5cdcba3e78a2047e866c0a.1438363203009.1438363203009.1438496204406.2; hubspotutk=b4f1e3d1ed5cdcba3e78a2047e866c0a; PHPSESSID=8lisp399s89uoe8njgciel8jm0; _csrf=3c0dbdea11557006263ddde0683a2436fea7a8ca7d47052f98e279417c8a5512a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22etl6ymsqmASuMiX2W38ektgpNBYwXRpz%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\Java\\jdk1.8.0_45\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Git\\cmd;c:\\xampp\\php;C:\\Program Files\\subversion\\bin;C:\\Program Files\\Java\\jre1.8.0_45\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/test/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '51425'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/test/advanced/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/test/advanced/backend/web/index.php'
+    'PHP_SELF' => '/test/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1445120521.871
+    'REQUEST_TIME' => 1445120521
+]
+2015-10-18 00:22:46 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'if' (T_IF)' in C:\xampp\htdocs\test\advanced\backend\controllers\SiteController.php:68
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-10-18 00:22:46 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = [
+    '_csrf' => 'Qk1YcTU1MUcnOTRHTFhCNi8MCwR4XGl1FX5gFF5BVjcMDwEGbWdBPQ=='
+    'LoginForm' => [
+        'username' => 'himanshu53939@gmail.com'
+        'password' => '111111'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_COOKIE = [
+    '__atuvc' => '2|29'
+    'ajs_user_id' => 'null'
+    'ajs_group_id' => 'null'
+    'mp_b0bec09f10951d12fcd8c74ab4983f52_mixpanel' => '{\"distinct_id\": \"14edfe4206760-0a6399ad7-434c062d-ff000-14edfe4206855\",\"$initial_referrer\": \"$direct\",\"$initial_referring_domain\": \"$direct\"}'
+    '_ga' => 'GA1.1.1702455467.1437280017'
+    'hsfirstvisit' => 'http://localhost/scrapper/tests/test.php||1438363203003'
+    '__distillery' => 'v20150227_0cd23d29-3eda-4669-ae75-5f78f669caa8'
+    '__hstc' => '181257784.b4f1e3d1ed5cdcba3e78a2047e866c0a.1438363203009.1438363203009.1438496204406.2'
+    'hubspotutk' => 'b4f1e3d1ed5cdcba3e78a2047e866c0a'
+    'PHPSESSID' => '8lisp399s89uoe8njgciel8jm0'
+    '_csrf' => '3c0dbdea11557006263ddde0683a2436fea7a8ca7d47052f98e279417c8a5512a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"etl6ymsqmASuMiX2W38ektgpNBYwXRpz\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '217'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://localhost/test/advanced/backend/web/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '__atuvc=2%7C29; ajs_user_id=null; ajs_group_id=null; mp_b0bec09f10951d12fcd8c74ab4983f52_mixpanel=%7B%22distinct_id%22%3A%20%2214edfe4206760-0a6399ad7-434c062d-ff000-14edfe4206855%22%2C%22%24initial_referrer%22%3A%20%22%24direct%22%2C%22%24initial_referring_domain%22%3A%20%22%24direct%22%7D; _ga=GA1.1.1702455467.1437280017; hsfirstvisit=http%3A%2F%2Flocalhost%2Fscrapper%2Ftests%2Ftest.php||1438363203003; __distillery=v20150227_0cd23d29-3eda-4669-ae75-5f78f669caa8; __hstc=181257784.b4f1e3d1ed5cdcba3e78a2047e866c0a.1438363203009.1438363203009.1438496204406.2; hubspotutk=b4f1e3d1ed5cdcba3e78a2047e866c0a; PHPSESSID=8lisp399s89uoe8njgciel8jm0; _csrf=3c0dbdea11557006263ddde0683a2436fea7a8ca7d47052f98e279417c8a5512a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22etl6ymsqmASuMiX2W38ektgpNBYwXRpz%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\Java\\jdk1.8.0_45\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Git\\cmd;c:\\xampp\\php;C:\\Program Files\\subversion\\bin;C:\\Program Files\\Java\\jre1.8.0_45\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/test/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '51439'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/test/advanced/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/test/advanced/backend/web/index.php'
+    'PHP_SELF' => '/test/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1445120566.737
+    'REQUEST_TIME' => 1445120566
+]
+2015-10-18 00:22:56 [::1][-][-][error][yii\base\ErrorException:4096] exception 'yii\base\ErrorException' with message 'Argument 1 passed to yii\web\User::login() must implement interface yii\web\IdentityInterface, null given, called in C:\xampp\htdocs\test\advanced\common\models\LoginForm.php on line 59 and defined' in C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\User.php:233
+Stack trace:
+#0 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\User.php(233): yii\base\ErrorHandler->handleError(4096, 'Argument 1 pass...', 'C:\\xampp\\htdocs...', 233, Array)
+#1 C:\xampp\htdocs\test\advanced\common\models\LoginForm.php(59): yii\web\User->login(NULL, 2592000)
+#2 C:\xampp\htdocs\test\advanced\backend\controllers\SiteController.php(68): common\models\LoginForm->login()
+#3 [internal function]: backend\controllers\SiteController->actionLogin()
+#4 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('login', Array)
+#7 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/login', Array)
+#8 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\test\advanced\backend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2015-10-18 00:22:55 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = [
+    '_csrf' => 'Qk1YcTU1MUcnOTRHTFhCNi8MCwR4XGl1FX5gFF5BVjcMDwEGbWdBPQ=='
+    'LoginForm' => [
+        'username' => 'himanshu53939@gmail.com'
+        'password' => '111111'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_COOKIE = [
+    '__atuvc' => '2|29'
+    'ajs_user_id' => 'null'
+    'ajs_group_id' => 'null'
+    'mp_b0bec09f10951d12fcd8c74ab4983f52_mixpanel' => '{\"distinct_id\": \"14edfe4206760-0a6399ad7-434c062d-ff000-14edfe4206855\",\"$initial_referrer\": \"$direct\",\"$initial_referring_domain\": \"$direct\"}'
+    '_ga' => 'GA1.1.1702455467.1437280017'
+    'hsfirstvisit' => 'http://localhost/scrapper/tests/test.php||1438363203003'
+    '__distillery' => 'v20150227_0cd23d29-3eda-4669-ae75-5f78f669caa8'
+    '__hstc' => '181257784.b4f1e3d1ed5cdcba3e78a2047e866c0a.1438363203009.1438363203009.1438496204406.2'
+    'hubspotutk' => 'b4f1e3d1ed5cdcba3e78a2047e866c0a'
+    'PHPSESSID' => '8lisp399s89uoe8njgciel8jm0'
+    '_csrf' => '3c0dbdea11557006263ddde0683a2436fea7a8ca7d47052f98e279417c8a5512a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"etl6ymsqmASuMiX2W38ektgpNBYwXRpz\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '217'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://localhost/test/advanced/backend/web/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '__atuvc=2%7C29; ajs_user_id=null; ajs_group_id=null; mp_b0bec09f10951d12fcd8c74ab4983f52_mixpanel=%7B%22distinct_id%22%3A%20%2214edfe4206760-0a6399ad7-434c062d-ff000-14edfe4206855%22%2C%22%24initial_referrer%22%3A%20%22%24direct%22%2C%22%24initial_referring_domain%22%3A%20%22%24direct%22%7D; _ga=GA1.1.1702455467.1437280017; hsfirstvisit=http%3A%2F%2Flocalhost%2Fscrapper%2Ftests%2Ftest.php||1438363203003; __distillery=v20150227_0cd23d29-3eda-4669-ae75-5f78f669caa8; __hstc=181257784.b4f1e3d1ed5cdcba3e78a2047e866c0a.1438363203009.1438363203009.1438496204406.2; hubspotutk=b4f1e3d1ed5cdcba3e78a2047e866c0a; PHPSESSID=8lisp399s89uoe8njgciel8jm0; _csrf=3c0dbdea11557006263ddde0683a2436fea7a8ca7d47052f98e279417c8a5512a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22etl6ymsqmASuMiX2W38ektgpNBYwXRpz%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\Java\\jdk1.8.0_45\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Git\\cmd;c:\\xampp\\php;C:\\Program Files\\subversion\\bin;C:\\Program Files\\Java\\jre1.8.0_45\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/test/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '51441'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/test/advanced/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/test/advanced/backend/web/index.php'
+    'PHP_SELF' => '/test/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1445120575.786
+    'REQUEST_TIME' => 1445120575
+]
+2015-10-18 00:24:04 [::1][-][-][error][yii\base\ErrorException:4096] exception 'yii\base\ErrorException' with message 'Argument 1 passed to yii\web\User::login() must implement interface yii\web\IdentityInterface, null given, called in C:\xampp\htdocs\test\advanced\common\models\LoginForm.php on line 59 and defined' in C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\User.php:233
+Stack trace:
+#0 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\User.php(233): yii\base\ErrorHandler->handleError(4096, 'Argument 1 pass...', 'C:\\xampp\\htdocs...', 233, Array)
+#1 C:\xampp\htdocs\test\advanced\common\models\LoginForm.php(59): yii\web\User->login(NULL, 2592000)
+#2 C:\xampp\htdocs\test\advanced\backend\controllers\SiteController.php(68): common\models\LoginForm->login()
+#3 [internal function]: backend\controllers\SiteController->actionLogin()
+#4 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('login', Array)
+#7 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/login', Array)
+#8 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\test\advanced\backend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2015-10-18 00:24:04 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = [
+    '_csrf' => 'TjAzUE1jZWYrRF9mNA4WFyNxYCUACj1UGQMLNSYXAhYAcmonFTEVHA=='
+    'LoginForm' => [
+        'username' => 'himanshu39'
+        'password' => '111111'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_COOKIE = [
+    '__atuvc' => '2|29'
+    'ajs_user_id' => 'null'
+    'ajs_group_id' => 'null'
+    'mp_b0bec09f10951d12fcd8c74ab4983f52_mixpanel' => '{\"distinct_id\": \"14edfe4206760-0a6399ad7-434c062d-ff000-14edfe4206855\",\"$initial_referrer\": \"$direct\",\"$initial_referring_domain\": \"$direct\"}'
+    '_ga' => 'GA1.1.1702455467.1437280017'
+    'hsfirstvisit' => 'http://localhost/scrapper/tests/test.php||1438363203003'
+    '__distillery' => 'v20150227_0cd23d29-3eda-4669-ae75-5f78f669caa8'
+    '__hstc' => '181257784.b4f1e3d1ed5cdcba3e78a2047e866c0a.1438363203009.1438363203009.1438496204406.2'
+    'hubspotutk' => 'b4f1e3d1ed5cdcba3e78a2047e866c0a'
+    'PHPSESSID' => '8lisp399s89uoe8njgciel8jm0'
+    '_csrf' => '3c0dbdea11557006263ddde0683a2436fea7a8ca7d47052f98e279417c8a5512a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"etl6ymsqmASuMiX2W38ektgpNBYwXRpz\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '202'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://localhost/test/advanced/backend/web/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '__atuvc=2%7C29; ajs_user_id=null; ajs_group_id=null; mp_b0bec09f10951d12fcd8c74ab4983f52_mixpanel=%7B%22distinct_id%22%3A%20%2214edfe4206760-0a6399ad7-434c062d-ff000-14edfe4206855%22%2C%22%24initial_referrer%22%3A%20%22%24direct%22%2C%22%24initial_referring_domain%22%3A%20%22%24direct%22%7D; _ga=GA1.1.1702455467.1437280017; hsfirstvisit=http%3A%2F%2Flocalhost%2Fscrapper%2Ftests%2Ftest.php||1438363203003; __distillery=v20150227_0cd23d29-3eda-4669-ae75-5f78f669caa8; __hstc=181257784.b4f1e3d1ed5cdcba3e78a2047e866c0a.1438363203009.1438363203009.1438496204406.2; hubspotutk=b4f1e3d1ed5cdcba3e78a2047e866c0a; PHPSESSID=8lisp399s89uoe8njgciel8jm0; _csrf=3c0dbdea11557006263ddde0683a2436fea7a8ca7d47052f98e279417c8a5512a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22etl6ymsqmASuMiX2W38ektgpNBYwXRpz%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\Java\\jdk1.8.0_45\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Git\\cmd;c:\\xampp\\php;C:\\Program Files\\subversion\\bin;C:\\Program Files\\Java\\jre1.8.0_45\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/test/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '51446'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/test/advanced/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/test/advanced/backend/web/index.php'
+    'PHP_SELF' => '/test/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1445120644.288
+    'REQUEST_TIME' => 1445120644
+]
+2015-10-18 00:27:48 [::1][-][-][error][yii\base\ErrorException:256] exception 'yii\base\ErrorException' with message 'Exception (Unknown Property) 'yii\base\UnknownPropertyException' with message 'Getting unknown property: common\models\LoginForm::email' 
+
+in C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Component.php:143
+
+Stack trace:
+#0 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\helpers\BaseHtml.php(1930): yii\base\Component->__get('email')
+#1 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\helpers\BaseHtml.php(1187): yii\helpers\BaseHtml::getAttributeValue(Object(common\models\LoginForm), 'email')
+#2 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\helpers\BaseHtml.php(1224): yii\helpers\BaseHtml::activeInput('text', Object(common\models\LoginForm), 'email', Array)
+#3 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\widgets\ActiveField.php(184): yii\helpers\BaseHtml::activeTextInput(Object(common\models\LoginForm), 'email', Array)
+#4 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2-bootstrap\ActiveField.php(188): yii\widgets\ActiveField->render(NULL)
+#5 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\widgets\ActiveField.php(156): yii\bootstrap\ActiveField->render()
+#6 C:\xampp\htdocs\test\advanced\backend\views\site\login.php(20): yii\widgets\ActiveField->__toString()
+#7 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\View.php(325): require('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#9 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(backend\controllers\SiteController))
+#10 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Controller.php(371): yii\base\View->render('login', Array, Object(backend\controllers\SiteController))
+#11 C:\xampp\htdocs\test\advanced\backend\controllers\SiteController.php(73): yii\base\Controller->render('login', Array)
+#12 [internal function]: backend\controllers\SiteController->actionLogin()
+#13 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#14 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('login', Array)
+#16 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/login', Array)
+#17 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 C:\xampp\htdocs\test\advanced\backend\web\index.php(18): yii\base\Application->run()
+#19 {main}' in C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\ErrorHandler.php:243
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(256, 'Exception (Unkn...', 'C:\\xampp\\htdocs...', 243, Array)
+#1 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\ErrorHandler.php(243): trigger_error('Exception (Unkn...', 256)
+#2 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\widgets\ActiveField.php(158): yii\base\ErrorHandler::convertExceptionToError(Object(yii\base\UnknownPropertyException))
+#3 C:\xampp\htdocs\test\advanced\backend\views\site\login.php(20): yii\widgets\ActiveField->__toString()
+#4 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\View.php(325): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#6 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(backend\controllers\SiteController))
+#7 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Controller.php(371): yii\base\View->render('login', Array, Object(backend\controllers\SiteController))
+#8 C:\xampp\htdocs\test\advanced\backend\controllers\SiteController.php(73): yii\base\Controller->render('login', Array)
+#9 [internal function]: backend\controllers\SiteController->actionLogin()
+#10 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#11 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('login', Array)
+#13 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/login', Array)
+#14 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 C:\xampp\htdocs\test\advanced\backend\web\index.php(18): yii\base\Application->run()
+#16 {main}
+    in C:\xampp\htdocs\test\advanced\backend\views\site\login.php:20
+    in C:\xampp\htdocs\test\advanced\backend\controllers\SiteController.php:73
+2015-10-18 00:27:48 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    '__atuvc' => '2|29'
+    'ajs_user_id' => 'null'
+    'ajs_group_id' => 'null'
+    'mp_b0bec09f10951d12fcd8c74ab4983f52_mixpanel' => '{\"distinct_id\": \"14edfe4206760-0a6399ad7-434c062d-ff000-14edfe4206855\",\"$initial_referrer\": \"$direct\",\"$initial_referring_domain\": \"$direct\"}'
+    '_ga' => 'GA1.1.1702455467.1437280017'
+    'hsfirstvisit' => 'http://localhost/scrapper/tests/test.php||1438363203003'
+    '__distillery' => 'v20150227_0cd23d29-3eda-4669-ae75-5f78f669caa8'
+    '__hstc' => '181257784.b4f1e3d1ed5cdcba3e78a2047e866c0a.1438363203009.1438363203009.1438496204406.2'
+    'hubspotutk' => 'b4f1e3d1ed5cdcba3e78a2047e866c0a'
+    '_csrf' => '3c0dbdea11557006263ddde0683a2436fea7a8ca7d47052f98e279417c8a5512a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"etl6ymsqmASuMiX2W38ektgpNBYwXRpz\";}'
+    'PHPSESSID' => '8lisp399s89uoe8njgciel8jm0'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '__atuvc=2%7C29; ajs_user_id=null; ajs_group_id=null; mp_b0bec09f10951d12fcd8c74ab4983f52_mixpanel=%7B%22distinct_id%22%3A%20%2214edfe4206760-0a6399ad7-434c062d-ff000-14edfe4206855%22%2C%22%24initial_referrer%22%3A%20%22%24direct%22%2C%22%24initial_referring_domain%22%3A%20%22%24direct%22%7D; _ga=GA1.1.1702455467.1437280017; hsfirstvisit=http%3A%2F%2Flocalhost%2Fscrapper%2Ftests%2Ftest.php||1438363203003; __distillery=v20150227_0cd23d29-3eda-4669-ae75-5f78f669caa8; __hstc=181257784.b4f1e3d1ed5cdcba3e78a2047e866c0a.1438363203009.1438363203009.1438496204406.2; hubspotutk=b4f1e3d1ed5cdcba3e78a2047e866c0a; _csrf=3c0dbdea11557006263ddde0683a2436fea7a8ca7d47052f98e279417c8a5512a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22etl6ymsqmASuMiX2W38ektgpNBYwXRpz%22%3B%7D; PHPSESSID=8lisp399s89uoe8njgciel8jm0'
+    'PATH' => 'C:\\Program Files\\Java\\jdk1.8.0_45\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Git\\cmd;c:\\xampp\\php;C:\\Program Files\\subversion\\bin;C:\\Program Files\\Java\\jre1.8.0_45\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/test/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '51475'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/test/advanced/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/test/advanced/backend/web/index.php'
+    'PHP_SELF' => '/test/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1445120868.597
+    'REQUEST_TIME' => 1445120868
+]
+2015-10-18 00:29:02 [::1][-][-][error][yii\base\ErrorException:4096] exception 'yii\base\ErrorException' with message 'Argument 1 passed to yii\web\User::login() must implement interface yii\web\IdentityInterface, null given, called in C:\xampp\htdocs\test\advanced\common\models\LoginForm.php on line 59 and defined' in C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\User.php:233
+Stack trace:
+#0 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\User.php(233): yii\base\ErrorHandler->handleError(4096, 'Argument 1 pass...', 'C:\\xampp\\htdocs...', 233, Array)
+#1 C:\xampp\htdocs\test\advanced\common\models\LoginForm.php(59): yii\web\User->login(NULL, 2592000)
+#2 C:\xampp\htdocs\test\advanced\backend\controllers\SiteController.php(68): common\models\LoginForm->AdminLogin()
+#3 [internal function]: backend\controllers\SiteController->actionLogin()
+#4 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('login', Array)
+#7 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/login', Array)
+#8 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\test\advanced\backend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2015-10-18 00:29:01 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = [
+    '_csrf' => 'TXE5QUJYLUUoBVV3OzVeNCAwajQPMXV3GkIBJCksSjUDM2A2GgpdPw=='
+    'LoginForm' => [
+        'email' => 'himanshu93'
+        'password' => 'himanshu93'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_COOKIE = [
+    '__atuvc' => '2|29'
+    'ajs_user_id' => 'null'
+    'ajs_group_id' => 'null'
+    'mp_b0bec09f10951d12fcd8c74ab4983f52_mixpanel' => '{\"distinct_id\": \"14edfe4206760-0a6399ad7-434c062d-ff000-14edfe4206855\",\"$initial_referrer\": \"$direct\",\"$initial_referring_domain\": \"$direct\"}'
+    '_ga' => 'GA1.1.1702455467.1437280017'
+    'hsfirstvisit' => 'http://localhost/scrapper/tests/test.php||1438363203003'
+    '__distillery' => 'v20150227_0cd23d29-3eda-4669-ae75-5f78f669caa8'
+    '__hstc' => '181257784.b4f1e3d1ed5cdcba3e78a2047e866c0a.1438363203009.1438363203009.1438496204406.2'
+    'hubspotutk' => 'b4f1e3d1ed5cdcba3e78a2047e866c0a'
+    '_csrf' => '3c0dbdea11557006263ddde0683a2436fea7a8ca7d47052f98e279417c8a5512a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"etl6ymsqmASuMiX2W38ektgpNBYwXRpz\";}'
+    'PHPSESSID' => '8lisp399s89uoe8njgciel8jm0'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '203'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://localhost/test/advanced/backend/web/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '__atuvc=2%7C29; ajs_user_id=null; ajs_group_id=null; mp_b0bec09f10951d12fcd8c74ab4983f52_mixpanel=%7B%22distinct_id%22%3A%20%2214edfe4206760-0a6399ad7-434c062d-ff000-14edfe4206855%22%2C%22%24initial_referrer%22%3A%20%22%24direct%22%2C%22%24initial_referring_domain%22%3A%20%22%24direct%22%7D; _ga=GA1.1.1702455467.1437280017; hsfirstvisit=http%3A%2F%2Flocalhost%2Fscrapper%2Ftests%2Ftest.php||1438363203003; __distillery=v20150227_0cd23d29-3eda-4669-ae75-5f78f669caa8; __hstc=181257784.b4f1e3d1ed5cdcba3e78a2047e866c0a.1438363203009.1438363203009.1438496204406.2; hubspotutk=b4f1e3d1ed5cdcba3e78a2047e866c0a; _csrf=3c0dbdea11557006263ddde0683a2436fea7a8ca7d47052f98e279417c8a5512a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22etl6ymsqmASuMiX2W38ektgpNBYwXRpz%22%3B%7D; PHPSESSID=8lisp399s89uoe8njgciel8jm0'
+    'PATH' => 'C:\\Program Files\\Java\\jdk1.8.0_45\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Git\\cmd;c:\\xampp\\php;C:\\Program Files\\subversion\\bin;C:\\Program Files\\Java\\jre1.8.0_45\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/test/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '51485'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/test/advanced/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/test/advanced/backend/web/index.php'
+    'PHP_SELF' => '/test/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1445120941.941
+    'REQUEST_TIME' => 1445120941
+]
+2015-10-18 00:33:01 [::1][-][-][error][yii\base\ErrorException:4096] exception 'yii\base\ErrorException' with message 'Argument 1 passed to yii\web\User::login() must implement interface yii\web\IdentityInterface, null given, called in C:\xampp\htdocs\test\advanced\common\models\LoginForm.php on line 59 and defined' in C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\User.php:233
+Stack trace:
+#0 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\User.php(233): yii\base\ErrorHandler->handleError(4096, 'Argument 1 pass...', 'C:\\xampp\\htdocs...', 233, Array)
+#1 C:\xampp\htdocs\test\advanced\common\models\LoginForm.php(59): yii\web\User->login(NULL, 2592000)
+#2 C:\xampp\htdocs\test\advanced\backend\controllers\SiteController.php(68): common\models\LoginForm->AdminLogin()
+#3 [internal function]: backend\controllers\SiteController->actionLogin()
+#4 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('login', Array)
+#7 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/login', Array)
+#8 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\test\advanced\backend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2015-10-18 00:33:01 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = [
+    '_csrf' => 'cWI1bU1fMUIUFllbNDJCMxwjZhgANmlwJlENCCYrVjI/IGwaFQ1BOA=='
+    'LoginForm' => [
+        'email' => 'himanshu@gmail.com'
+        'password' => '111111'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_COOKIE = [
+    '__atuvc' => '2|29'
+    'ajs_user_id' => 'null'
+    'ajs_group_id' => 'null'
+    'mp_b0bec09f10951d12fcd8c74ab4983f52_mixpanel' => '{\"distinct_id\": \"14edfe4206760-0a6399ad7-434c062d-ff000-14edfe4206855\",\"$initial_referrer\": \"$direct\",\"$initial_referring_domain\": \"$direct\"}'
+    '_ga' => 'GA1.1.1702455467.1437280017'
+    'hsfirstvisit' => 'http://localhost/scrapper/tests/test.php||1438363203003'
+    '__distillery' => 'v20150227_0cd23d29-3eda-4669-ae75-5f78f669caa8'
+    '__hstc' => '181257784.b4f1e3d1ed5cdcba3e78a2047e866c0a.1438363203009.1438363203009.1438496204406.2'
+    'hubspotutk' => 'b4f1e3d1ed5cdcba3e78a2047e866c0a'
+    '_csrf' => '3c0dbdea11557006263ddde0683a2436fea7a8ca7d47052f98e279417c8a5512a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"etl6ymsqmASuMiX2W38ektgpNBYwXRpz\";}'
+    'PHPSESSID' => '8lisp399s89uoe8njgciel8jm0'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '211'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://localhost/test/advanced/backend/web/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '__atuvc=2%7C29; ajs_user_id=null; ajs_group_id=null; mp_b0bec09f10951d12fcd8c74ab4983f52_mixpanel=%7B%22distinct_id%22%3A%20%2214edfe4206760-0a6399ad7-434c062d-ff000-14edfe4206855%22%2C%22%24initial_referrer%22%3A%20%22%24direct%22%2C%22%24initial_referring_domain%22%3A%20%22%24direct%22%7D; _ga=GA1.1.1702455467.1437280017; hsfirstvisit=http%3A%2F%2Flocalhost%2Fscrapper%2Ftests%2Ftest.php||1438363203003; __distillery=v20150227_0cd23d29-3eda-4669-ae75-5f78f669caa8; __hstc=181257784.b4f1e3d1ed5cdcba3e78a2047e866c0a.1438363203009.1438363203009.1438496204406.2; hubspotutk=b4f1e3d1ed5cdcba3e78a2047e866c0a; _csrf=3c0dbdea11557006263ddde0683a2436fea7a8ca7d47052f98e279417c8a5512a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22etl6ymsqmASuMiX2W38ektgpNBYwXRpz%22%3B%7D; PHPSESSID=8lisp399s89uoe8njgciel8jm0'
+    'PATH' => 'C:\\Program Files\\Java\\jdk1.8.0_45\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Git\\cmd;c:\\xampp\\php;C:\\Program Files\\subversion\\bin;C:\\Program Files\\Java\\jre1.8.0_45\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/test/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '51520'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/test/advanced/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/test/advanced/backend/web/index.php'
+    'PHP_SELF' => '/test/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1445121181.493
+    'REQUEST_TIME' => 1445121181
+]
+2015-10-18 00:36:26 [::1][Array][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Array to string conversion' in C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\User.php:240
+Stack trace:
+#0 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\User.php(240): yii\base\ErrorHandler->handleError(8, 'Array to string...', 'C:\\xampp\\htdocs...', 240, Array)
+#1 C:\xampp\htdocs\test\advanced\common\models\LoginForm.php(59): yii\web\User->login(Object(app\models\Admin), 2592000)
+#2 C:\xampp\htdocs\test\advanced\backend\controllers\SiteController.php(68): common\models\LoginForm->AdminLogin()
+#3 [internal function]: backend\controllers\SiteController->actionLogin()
+#4 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('login', Array)
+#7 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/login', Array)
+#8 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\test\advanced\backend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2015-10-18 00:36:25 [::1][Array][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = [
+    '_csrf' => 'cWI1bU1fMUIUFllbNDJCMxwjZhgANmlwJlENCCYrVjI/IGwaFQ1BOA=='
+    'LoginForm' => [
+        'email' => 'himanshu@gmail.com'
+        'password' => '111111'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_COOKIE = [
+    '__atuvc' => '2|29'
+    'ajs_user_id' => 'null'
+    'ajs_group_id' => 'null'
+    'mp_b0bec09f10951d12fcd8c74ab4983f52_mixpanel' => '{\"distinct_id\": \"14edfe4206760-0a6399ad7-434c062d-ff000-14edfe4206855\",\"$initial_referrer\": \"$direct\",\"$initial_referring_domain\": \"$direct\"}'
+    '_ga' => 'GA1.1.1702455467.1437280017'
+    'hsfirstvisit' => 'http://localhost/scrapper/tests/test.php||1438363203003'
+    '__distillery' => 'v20150227_0cd23d29-3eda-4669-ae75-5f78f669caa8'
+    '__hstc' => '181257784.b4f1e3d1ed5cdcba3e78a2047e866c0a.1438363203009.1438363203009.1438496204406.2'
+    'hubspotutk' => 'b4f1e3d1ed5cdcba3e78a2047e866c0a'
+    '_csrf' => '3c0dbdea11557006263ddde0683a2436fea7a8ca7d47052f98e279417c8a5512a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"etl6ymsqmASuMiX2W38ektgpNBYwXRpz\";}'
+    'PHPSESSID' => '8lisp399s89uoe8njgciel8jm0'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '211'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://localhost/test/advanced/backend/web/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '__atuvc=2%7C29; ajs_user_id=null; ajs_group_id=null; mp_b0bec09f10951d12fcd8c74ab4983f52_mixpanel=%7B%22distinct_id%22%3A%20%2214edfe4206760-0a6399ad7-434c062d-ff000-14edfe4206855%22%2C%22%24initial_referrer%22%3A%20%22%24direct%22%2C%22%24initial_referring_domain%22%3A%20%22%24direct%22%7D; _ga=GA1.1.1702455467.1437280017; hsfirstvisit=http%3A%2F%2Flocalhost%2Fscrapper%2Ftests%2Ftest.php||1438363203003; __distillery=v20150227_0cd23d29-3eda-4669-ae75-5f78f669caa8; __hstc=181257784.b4f1e3d1ed5cdcba3e78a2047e866c0a.1438363203009.1438363203009.1438496204406.2; hubspotutk=b4f1e3d1ed5cdcba3e78a2047e866c0a; _csrf=3c0dbdea11557006263ddde0683a2436fea7a8ca7d47052f98e279417c8a5512a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22etl6ymsqmASuMiX2W38ektgpNBYwXRpz%22%3B%7D; PHPSESSID=8lisp399s89uoe8njgciel8jm0'
+    'PATH' => 'C:\\Program Files\\Java\\jdk1.8.0_45\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Git\\cmd;c:\\xampp\\php;C:\\Program Files\\subversion\\bin;C:\\Program Files\\Java\\jre1.8.0_45\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/test/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '51548'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/test/advanced/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/test/advanced/backend/web/index.php'
+    'PHP_SELF' => '/test/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1445121385.286
+    'REQUEST_TIME' => 1445121385
+]
+2015-10-18 00:41:03 [::1][-][hel1o9s0ofqmdlf6lv0p550m72][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'common\models\Admin' not found' in C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\User.php:614
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-10-18 00:41:03 [::1][-][hel1o9s0ofqmdlf6lv0p550m72][info][application] $_GET = [
+    'r' => 'site/logout'
+]
+
+$_COOKIE = [
+    '__atuvc' => '2|29'
+    'ajs_user_id' => 'null'
+    'ajs_group_id' => 'null'
+    'mp_b0bec09f10951d12fcd8c74ab4983f52_mixpanel' => '{\"distinct_id\": \"14edfe4206760-0a6399ad7-434c062d-ff000-14edfe4206855\",\"$initial_referrer\": \"$direct\",\"$initial_referring_domain\": \"$direct\"}'
+    '_ga' => 'GA1.1.1702455467.1437280017'
+    'hsfirstvisit' => 'http://localhost/scrapper/tests/test.php||1438363203003'
+    '__distillery' => 'v20150227_0cd23d29-3eda-4669-ae75-5f78f669caa8'
+    '__hstc' => '181257784.b4f1e3d1ed5cdcba3e78a2047e866c0a.1438363203009.1438363203009.1438496204406.2'
+    'hubspotutk' => 'b4f1e3d1ed5cdcba3e78a2047e866c0a'
+    '_csrf' => '3c0dbdea11557006263ddde0683a2436fea7a8ca7d47052f98e279417c8a5512a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"etl6ymsqmASuMiX2W38ektgpNBYwXRpz\";}'
+    'PHPSESSID' => 'hel1o9s0ofqmdlf6lv0p550m72'
+    '_identity' => '619e3805d8f685851a4fea6dc13bf889ed17130dce8c3e4a79e0fa37b337bba0a:2:{i:0;s:9:\"_identity\";i:1;s:15:\"[[],\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '__atuvc=2%7C29; ajs_user_id=null; ajs_group_id=null; mp_b0bec09f10951d12fcd8c74ab4983f52_mixpanel=%7B%22distinct_id%22%3A%20%2214edfe4206760-0a6399ad7-434c062d-ff000-14edfe4206855%22%2C%22%24initial_referrer%22%3A%20%22%24direct%22%2C%22%24initial_referring_domain%22%3A%20%22%24direct%22%7D; _ga=GA1.1.1702455467.1437280017; hsfirstvisit=http%3A%2F%2Flocalhost%2Fscrapper%2Ftests%2Ftest.php||1438363203003; __distillery=v20150227_0cd23d29-3eda-4669-ae75-5f78f669caa8; __hstc=181257784.b4f1e3d1ed5cdcba3e78a2047e866c0a.1438363203009.1438363203009.1438496204406.2; hubspotutk=b4f1e3d1ed5cdcba3e78a2047e866c0a; _csrf=3c0dbdea11557006263ddde0683a2436fea7a8ca7d47052f98e279417c8a5512a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22etl6ymsqmASuMiX2W38ektgpNBYwXRpz%22%3B%7D; PHPSESSID=hel1o9s0ofqmdlf6lv0p550m72; _identity=619e3805d8f685851a4fea6dc13bf889ed17130dce8c3e4a79e0fa37b337bba0a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A15%3A%22%5B%5B%5D%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\Java\\jdk1.8.0_45\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Git\\cmd;c:\\xampp\\php;C:\\Program Files\\subversion\\bin;C:\\Program Files\\Java\\jre1.8.0_45\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/test/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '51584'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogout'
+    'REQUEST_URI' => '/test/advanced/backend/web/index.php?r=site%2Flogout'
+    'SCRIPT_NAME' => '/test/advanced/backend/web/index.php'
+    'PHP_SELF' => '/test/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1445121663.792
+    'REQUEST_TIME' => 1445121663
+]
+2015-10-18 00:41:11 [::1][-][hel1o9s0ofqmdlf6lv0p550m72][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'common\models\Admin' not found' in C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\User.php:614
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-10-18 00:41:11 [::1][-][hel1o9s0ofqmdlf6lv0p550m72][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    '__atuvc' => '2|29'
+    'ajs_user_id' => 'null'
+    'ajs_group_id' => 'null'
+    'mp_b0bec09f10951d12fcd8c74ab4983f52_mixpanel' => '{\"distinct_id\": \"14edfe4206760-0a6399ad7-434c062d-ff000-14edfe4206855\",\"$initial_referrer\": \"$direct\",\"$initial_referring_domain\": \"$direct\"}'
+    '_ga' => 'GA1.1.1702455467.1437280017'
+    'hsfirstvisit' => 'http://localhost/scrapper/tests/test.php||1438363203003'
+    '__distillery' => 'v20150227_0cd23d29-3eda-4669-ae75-5f78f669caa8'
+    '__hstc' => '181257784.b4f1e3d1ed5cdcba3e78a2047e866c0a.1438363203009.1438363203009.1438496204406.2'
+    'hubspotutk' => 'b4f1e3d1ed5cdcba3e78a2047e866c0a'
+    '_csrf' => '3c0dbdea11557006263ddde0683a2436fea7a8ca7d47052f98e279417c8a5512a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"etl6ymsqmASuMiX2W38ektgpNBYwXRpz\";}'
+    'PHPSESSID' => 'hel1o9s0ofqmdlf6lv0p550m72'
+    '_identity' => '619e3805d8f685851a4fea6dc13bf889ed17130dce8c3e4a79e0fa37b337bba0a:2:{i:0;s:9:\"_identity\";i:1;s:15:\"[[],\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '__atuvc=2%7C29; ajs_user_id=null; ajs_group_id=null; mp_b0bec09f10951d12fcd8c74ab4983f52_mixpanel=%7B%22distinct_id%22%3A%20%2214edfe4206760-0a6399ad7-434c062d-ff000-14edfe4206855%22%2C%22%24initial_referrer%22%3A%20%22%24direct%22%2C%22%24initial_referring_domain%22%3A%20%22%24direct%22%7D; _ga=GA1.1.1702455467.1437280017; hsfirstvisit=http%3A%2F%2Flocalhost%2Fscrapper%2Ftests%2Ftest.php||1438363203003; __distillery=v20150227_0cd23d29-3eda-4669-ae75-5f78f669caa8; __hstc=181257784.b4f1e3d1ed5cdcba3e78a2047e866c0a.1438363203009.1438363203009.1438496204406.2; hubspotutk=b4f1e3d1ed5cdcba3e78a2047e866c0a; _csrf=3c0dbdea11557006263ddde0683a2436fea7a8ca7d47052f98e279417c8a5512a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22etl6ymsqmASuMiX2W38ektgpNBYwXRpz%22%3B%7D; PHPSESSID=hel1o9s0ofqmdlf6lv0p550m72; _identity=619e3805d8f685851a4fea6dc13bf889ed17130dce8c3e4a79e0fa37b337bba0a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A15%3A%22%5B%5B%5D%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\Java\\jdk1.8.0_45\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Git\\cmd;c:\\xampp\\php;C:\\Program Files\\subversion\\bin;C:\\Program Files\\Java\\jre1.8.0_45\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/test/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '51585'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/test/advanced/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/test/advanced/backend/web/index.php'
+    'PHP_SELF' => '/test/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1445121671.402
+    'REQUEST_TIME' => 1445121671
+]
+2015-10-18 00:41:44 [::1][-][hel1o9s0ofqmdlf6lv0p550m72][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'common\models\Admin' not found' in C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\User.php:614
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-10-18 00:41:44 [::1][-][hel1o9s0ofqmdlf6lv0p550m72][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    '__atuvc' => '2|29'
+    'ajs_user_id' => 'null'
+    'ajs_group_id' => 'null'
+    'mp_b0bec09f10951d12fcd8c74ab4983f52_mixpanel' => '{\"distinct_id\": \"14edfe4206760-0a6399ad7-434c062d-ff000-14edfe4206855\",\"$initial_referrer\": \"$direct\",\"$initial_referring_domain\": \"$direct\"}'
+    '_ga' => 'GA1.1.1702455467.1437280017'
+    'hsfirstvisit' => 'http://localhost/scrapper/tests/test.php||1438363203003'
+    '__distillery' => 'v20150227_0cd23d29-3eda-4669-ae75-5f78f669caa8'
+    '__hstc' => '181257784.b4f1e3d1ed5cdcba3e78a2047e866c0a.1438363203009.1438363203009.1438496204406.2'
+    'hubspotutk' => 'b4f1e3d1ed5cdcba3e78a2047e866c0a'
+    '_csrf' => '3c0dbdea11557006263ddde0683a2436fea7a8ca7d47052f98e279417c8a5512a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"etl6ymsqmASuMiX2W38ektgpNBYwXRpz\";}'
+    'PHPSESSID' => 'hel1o9s0ofqmdlf6lv0p550m72'
+    '_identity' => '619e3805d8f685851a4fea6dc13bf889ed17130dce8c3e4a79e0fa37b337bba0a:2:{i:0;s:9:\"_identity\";i:1;s:15:\"[[],\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '__atuvc=2%7C29; ajs_user_id=null; ajs_group_id=null; mp_b0bec09f10951d12fcd8c74ab4983f52_mixpanel=%7B%22distinct_id%22%3A%20%2214edfe4206760-0a6399ad7-434c062d-ff000-14edfe4206855%22%2C%22%24initial_referrer%22%3A%20%22%24direct%22%2C%22%24initial_referring_domain%22%3A%20%22%24direct%22%7D; _ga=GA1.1.1702455467.1437280017; hsfirstvisit=http%3A%2F%2Flocalhost%2Fscrapper%2Ftests%2Ftest.php||1438363203003; __distillery=v20150227_0cd23d29-3eda-4669-ae75-5f78f669caa8; __hstc=181257784.b4f1e3d1ed5cdcba3e78a2047e866c0a.1438363203009.1438363203009.1438496204406.2; hubspotutk=b4f1e3d1ed5cdcba3e78a2047e866c0a; _csrf=3c0dbdea11557006263ddde0683a2436fea7a8ca7d47052f98e279417c8a5512a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22etl6ymsqmASuMiX2W38ektgpNBYwXRpz%22%3B%7D; PHPSESSID=hel1o9s0ofqmdlf6lv0p550m72; _identity=619e3805d8f685851a4fea6dc13bf889ed17130dce8c3e4a79e0fa37b337bba0a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A15%3A%22%5B%5B%5D%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\Java\\jdk1.8.0_45\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Git\\cmd;c:\\xampp\\php;C:\\Program Files\\subversion\\bin;C:\\Program Files\\Java\\jre1.8.0_45\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/test/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '51586'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/test/advanced/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/test/advanced/backend/web/index.php'
+    'PHP_SELF' => '/test/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1445121704.283
+    'REQUEST_TIME' => 1445121704
+]
+2015-10-18 00:42:12 [::1][-][hel1o9s0ofqmdlf6lv0p550m72][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'common\models\Admin' not found' in C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\User.php:614
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-10-18 00:42:12 [::1][-][hel1o9s0ofqmdlf6lv0p550m72][info][application] $_GET = [
+    'r' => 'site/logout'
+]
+
+$_COOKIE = [
+    '__atuvc' => '2|29'
+    'ajs_user_id' => 'null'
+    'ajs_group_id' => 'null'
+    'mp_b0bec09f10951d12fcd8c74ab4983f52_mixpanel' => '{\"distinct_id\": \"14edfe4206760-0a6399ad7-434c062d-ff000-14edfe4206855\",\"$initial_referrer\": \"$direct\",\"$initial_referring_domain\": \"$direct\"}'
+    '_ga' => 'GA1.1.1702455467.1437280017'
+    'hsfirstvisit' => 'http://localhost/scrapper/tests/test.php||1438363203003'
+    '__distillery' => 'v20150227_0cd23d29-3eda-4669-ae75-5f78f669caa8'
+    '__hstc' => '181257784.b4f1e3d1ed5cdcba3e78a2047e866c0a.1438363203009.1438363203009.1438496204406.2'
+    'hubspotutk' => 'b4f1e3d1ed5cdcba3e78a2047e866c0a'
+    '_csrf' => '3c0dbdea11557006263ddde0683a2436fea7a8ca7d47052f98e279417c8a5512a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"etl6ymsqmASuMiX2W38ektgpNBYwXRpz\";}'
+    'PHPSESSID' => 'hel1o9s0ofqmdlf6lv0p550m72'
+    '_identity' => '619e3805d8f685851a4fea6dc13bf889ed17130dce8c3e4a79e0fa37b337bba0a:2:{i:0;s:9:\"_identity\";i:1;s:15:\"[[],\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '__atuvc=2%7C29; ajs_user_id=null; ajs_group_id=null; mp_b0bec09f10951d12fcd8c74ab4983f52_mixpanel=%7B%22distinct_id%22%3A%20%2214edfe4206760-0a6399ad7-434c062d-ff000-14edfe4206855%22%2C%22%24initial_referrer%22%3A%20%22%24direct%22%2C%22%24initial_referring_domain%22%3A%20%22%24direct%22%7D; _ga=GA1.1.1702455467.1437280017; hsfirstvisit=http%3A%2F%2Flocalhost%2Fscrapper%2Ftests%2Ftest.php||1438363203003; __distillery=v20150227_0cd23d29-3eda-4669-ae75-5f78f669caa8; __hstc=181257784.b4f1e3d1ed5cdcba3e78a2047e866c0a.1438363203009.1438363203009.1438496204406.2; hubspotutk=b4f1e3d1ed5cdcba3e78a2047e866c0a; _csrf=3c0dbdea11557006263ddde0683a2436fea7a8ca7d47052f98e279417c8a5512a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22etl6ymsqmASuMiX2W38ektgpNBYwXRpz%22%3B%7D; PHPSESSID=hel1o9s0ofqmdlf6lv0p550m72; _identity=619e3805d8f685851a4fea6dc13bf889ed17130dce8c3e4a79e0fa37b337bba0a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A15%3A%22%5B%5B%5D%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\Java\\jdk1.8.0_45\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Git\\cmd;c:\\xampp\\php;C:\\Program Files\\subversion\\bin;C:\\Program Files\\Java\\jre1.8.0_45\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/test/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '51589'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogout'
+    'REQUEST_URI' => '/test/advanced/backend/web/index.php?r=site%2Flogout'
+    'SCRIPT_NAME' => '/test/advanced/backend/web/index.php'
+    'PHP_SELF' => '/test/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1445121732.009
+    'REQUEST_TIME' => 1445121732
+]
+2015-10-18 00:43:15 [::1][-][-][error][yii\base\ErrorException:4096] exception 'yii\base\ErrorException' with message 'Argument 1 passed to yii\web\User::login() must implement interface yii\web\IdentityInterface, null given, called in C:\xampp\htdocs\test\advanced\common\models\LoginForm.php on line 59 and defined' in C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\User.php:233
+Stack trace:
+#0 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\User.php(233): yii\base\ErrorHandler->handleError(4096, 'Argument 1 pass...', 'C:\\xampp\\htdocs...', 233, Array)
+#1 C:\xampp\htdocs\test\advanced\common\models\LoginForm.php(59): yii\web\User->login(NULL, 2592000)
+#2 C:\xampp\htdocs\test\advanced\backend\controllers\SiteController.php(69): common\models\LoginForm->AdminLogin()
+#3 [internal function]: backend\controllers\SiteController->actionLogin()
+#4 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('login', Array)
+#7 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/login', Array)
+#8 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\test\advanced\backend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2015-10-18 00:43:14 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = [
+    '_csrf' => 'Z3NlQnlsWTgCBwl0AAEqSQoyNjc0BQEKMEBdJxIYPkgpMTw1IT4pQg=='
+    'LoginForm' => [
+        'email' => 'himanshu@todooli.com'
+        'password' => '111111'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_COOKIE = [
+    '__atuvc' => '2|29'
+    'ajs_user_id' => 'null'
+    'ajs_group_id' => 'null'
+    'mp_b0bec09f10951d12fcd8c74ab4983f52_mixpanel' => '{\"distinct_id\": \"14edfe4206760-0a6399ad7-434c062d-ff000-14edfe4206855\",\"$initial_referrer\": \"$direct\",\"$initial_referring_domain\": \"$direct\"}'
+    '_ga' => 'GA1.1.1702455467.1437280017'
+    'hsfirstvisit' => 'http://localhost/scrapper/tests/test.php||1438363203003'
+    '__distillery' => 'v20150227_0cd23d29-3eda-4669-ae75-5f78f669caa8'
+    '__hstc' => '181257784.b4f1e3d1ed5cdcba3e78a2047e866c0a.1438363203009.1438363203009.1438496204406.2'
+    'hubspotutk' => 'b4f1e3d1ed5cdcba3e78a2047e866c0a'
+    '_csrf' => '3c0dbdea11557006263ddde0683a2436fea7a8ca7d47052f98e279417c8a5512a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"etl6ymsqmASuMiX2W38ektgpNBYwXRpz\";}'
+    '_identity' => '619e3805d8f685851a4fea6dc13bf889ed17130dce8c3e4a79e0fa37b337bba0a:2:{i:0;s:9:\"_identity\";i:1;s:15:\"[[],\"\",2592000]\";}'
+    'PHPSESSID' => 'hel1o9s0ofqmdlf6lv0p550m72'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => []
+    '__returnUrl' => '/test/advanced/backend/web/index.php?r=site%2Flogout'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '211'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://localhost/test/advanced/backend/web/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '__atuvc=2%7C29; ajs_user_id=null; ajs_group_id=null; mp_b0bec09f10951d12fcd8c74ab4983f52_mixpanel=%7B%22distinct_id%22%3A%20%2214edfe4206760-0a6399ad7-434c062d-ff000-14edfe4206855%22%2C%22%24initial_referrer%22%3A%20%22%24direct%22%2C%22%24initial_referring_domain%22%3A%20%22%24direct%22%7D; _ga=GA1.1.1702455467.1437280017; hsfirstvisit=http%3A%2F%2Flocalhost%2Fscrapper%2Ftests%2Ftest.php||1438363203003; __distillery=v20150227_0cd23d29-3eda-4669-ae75-5f78f669caa8; __hstc=181257784.b4f1e3d1ed5cdcba3e78a2047e866c0a.1438363203009.1438363203009.1438496204406.2; hubspotutk=b4f1e3d1ed5cdcba3e78a2047e866c0a; _csrf=3c0dbdea11557006263ddde0683a2436fea7a8ca7d47052f98e279417c8a5512a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22etl6ymsqmASuMiX2W38ektgpNBYwXRpz%22%3B%7D; _identity=619e3805d8f685851a4fea6dc13bf889ed17130dce8c3e4a79e0fa37b337bba0a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A15%3A%22%5B%5B%5D%2C%22%22%2C2592000%5D%22%3B%7D; PHPSESSID=hel1o9s0ofqmdlf6lv0p550m72'
+    'PATH' => 'C:\\Program Files\\Java\\jdk1.8.0_45\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Git\\cmd;c:\\xampp\\php;C:\\Program Files\\subversion\\bin;C:\\Program Files\\Java\\jre1.8.0_45\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/test/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '51598'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/test/advanced/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/test/advanced/backend/web/index.php'
+    'PHP_SELF' => '/test/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1445121794.814
+    'REQUEST_TIME' => 1445121794
+]
+2015-10-18 00:44:34 [::1][-][-][error][yii\base\ErrorException:4096] exception 'yii\base\ErrorException' with message 'Argument 1 passed to yii\web\User::login() must implement interface yii\web\IdentityInterface, null given, called in C:\xampp\htdocs\test\advanced\common\models\LoginForm.php on line 59 and defined' in C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\User.php:233
+Stack trace:
+#0 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\User.php(233): yii\base\ErrorHandler->handleError(4096, 'Argument 1 pass...', 'C:\\xampp\\htdocs...', 233, Array)
+#1 C:\xampp\htdocs\test\advanced\common\models\LoginForm.php(59): yii\web\User->login(NULL, 2592000)
+#2 C:\xampp\htdocs\test\advanced\backend\controllers\SiteController.php(69): common\models\LoginForm->AdminLogin()
+#3 [internal function]: backend\controllers\SiteController->actionLogin()
+#4 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('login', Array)
+#7 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/login', Array)
+#8 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\test\advanced\backend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2015-10-18 00:44:34 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = [
+    '_csrf' => 'cmZiSzdOSDYXEg59TiM7Rx8nMT56JxAEJVVaLlw6L0Y8JDs8bxw4TA=='
+    'LoginForm' => [
+        'email' => 'himanshu@todooli.com'
+        'password' => 'himanshu93'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_COOKIE = [
+    '__atuvc' => '2|29'
+    'ajs_user_id' => 'null'
+    'ajs_group_id' => 'null'
+    'mp_b0bec09f10951d12fcd8c74ab4983f52_mixpanel' => '{\"distinct_id\": \"14edfe4206760-0a6399ad7-434c062d-ff000-14edfe4206855\",\"$initial_referrer\": \"$direct\",\"$initial_referring_domain\": \"$direct\"}'
+    '_ga' => 'GA1.1.1702455467.1437280017'
+    'hsfirstvisit' => 'http://localhost/scrapper/tests/test.php||1438363203003'
+    '__distillery' => 'v20150227_0cd23d29-3eda-4669-ae75-5f78f669caa8'
+    '__hstc' => '181257784.b4f1e3d1ed5cdcba3e78a2047e866c0a.1438363203009.1438363203009.1438496204406.2'
+    'hubspotutk' => 'b4f1e3d1ed5cdcba3e78a2047e866c0a'
+    '_csrf' => '3c0dbdea11557006263ddde0683a2436fea7a8ca7d47052f98e279417c8a5512a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"etl6ymsqmASuMiX2W38ektgpNBYwXRpz\";}'
+    '_identity' => '619e3805d8f685851a4fea6dc13bf889ed17130dce8c3e4a79e0fa37b337bba0a:2:{i:0;s:9:\"_identity\";i:1;s:15:\"[[],\"\",2592000]\";}'
+    'PHPSESSID' => 'hel1o9s0ofqmdlf6lv0p550m72'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => []
+    '__returnUrl' => '/test/advanced/backend/web/index.php?r=site%2Flogout'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '215'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://localhost/test/advanced/backend/web/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '__atuvc=2%7C29; ajs_user_id=null; ajs_group_id=null; mp_b0bec09f10951d12fcd8c74ab4983f52_mixpanel=%7B%22distinct_id%22%3A%20%2214edfe4206760-0a6399ad7-434c062d-ff000-14edfe4206855%22%2C%22%24initial_referrer%22%3A%20%22%24direct%22%2C%22%24initial_referring_domain%22%3A%20%22%24direct%22%7D; _ga=GA1.1.1702455467.1437280017; hsfirstvisit=http%3A%2F%2Flocalhost%2Fscrapper%2Ftests%2Ftest.php||1438363203003; __distillery=v20150227_0cd23d29-3eda-4669-ae75-5f78f669caa8; __hstc=181257784.b4f1e3d1ed5cdcba3e78a2047e866c0a.1438363203009.1438363203009.1438496204406.2; hubspotutk=b4f1e3d1ed5cdcba3e78a2047e866c0a; _csrf=3c0dbdea11557006263ddde0683a2436fea7a8ca7d47052f98e279417c8a5512a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22etl6ymsqmASuMiX2W38ektgpNBYwXRpz%22%3B%7D; _identity=619e3805d8f685851a4fea6dc13bf889ed17130dce8c3e4a79e0fa37b337bba0a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A15%3A%22%5B%5B%5D%2C%22%22%2C2592000%5D%22%3B%7D; PHPSESSID=hel1o9s0ofqmdlf6lv0p550m72'
+    'PATH' => 'C:\\Program Files\\Java\\jdk1.8.0_45\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Git\\cmd;c:\\xampp\\php;C:\\Program Files\\subversion\\bin;C:\\Program Files\\Java\\jre1.8.0_45\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/test/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '51615'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/test/advanced/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/test/advanced/backend/web/index.php'
+    'PHP_SELF' => '/test/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1445121874.606
+    'REQUEST_TIME' => 1445121874
+]
+2015-10-18 00:53:34 [::1][-][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'backend\models\Admin' in file: C:\xampp\htdocs\test\advanced/backend/models/Admin.php. Namespace missing?' in C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('backend\\models\\...')
+#1 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\User.php(614): spl_autoload_call('backend\\models\\...')
+#2 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\User.php(176): yii\web\User->renewAuthStatus()
+#3 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\User.php(346): yii\web\User->getIdentity()
+#4 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\filters\AccessRule.php(149): yii\web\User->getIsGuest()
+#5 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\filters\AccessRule.php(104): yii\filters\AccessRule->matchRole(Object(yii\web\User))
+#6 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\filters\AccessControl.php(118): yii\filters\AccessRule->allows(Object(yii\base\InlineAction), Object(yii\web\User), Object(yii\web\Request))
+#7 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\ActionFilter.php(71): yii\filters\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#8 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#9 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#10 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Controller.php(263): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#11 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#12 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#13 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#14 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/index', Array)
+#15 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 C:\xampp\htdocs\test\advanced\backend\web\index.php(18): yii\base\Application->run()
+#17 {main}
+2015-10-18 00:53:34 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_COOKIE = [
+    '__atuvc' => '2|29'
+    'ajs_user_id' => 'null'
+    'ajs_group_id' => 'null'
+    'mp_b0bec09f10951d12fcd8c74ab4983f52_mixpanel' => '{\"distinct_id\": \"14edfe4206760-0a6399ad7-434c062d-ff000-14edfe4206855\",\"$initial_referrer\": \"$direct\",\"$initial_referring_domain\": \"$direct\"}'
+    '_ga' => 'GA1.1.1702455467.1437280017'
+    'hsfirstvisit' => 'http://localhost/scrapper/tests/test.php||1438363203003'
+    '__distillery' => 'v20150227_0cd23d29-3eda-4669-ae75-5f78f669caa8'
+    '__hstc' => '181257784.b4f1e3d1ed5cdcba3e78a2047e866c0a.1438363203009.1438363203009.1438496204406.2'
+    'hubspotutk' => 'b4f1e3d1ed5cdcba3e78a2047e866c0a'
+    '_csrf' => '3c0dbdea11557006263ddde0683a2436fea7a8ca7d47052f98e279417c8a5512a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"etl6ymsqmASuMiX2W38ektgpNBYwXRpz\";}'
+    '_identity' => '88529ed87e551622f2cabb990f392b5f3d7f27e2a9ca8aa5bf07f1c016b06741a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"66Q7983hLkvU0h7VjddqiAVIRAbWmVJ8\",2592000]\";}'
+    'PHPSESSID' => '5s284r1hjb105rv2bkqea227i1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/test/advanced/backend/web/index.php?r=site%2Findex'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '__atuvc=2%7C29; ajs_user_id=null; ajs_group_id=null; mp_b0bec09f10951d12fcd8c74ab4983f52_mixpanel=%7B%22distinct_id%22%3A%20%2214edfe4206760-0a6399ad7-434c062d-ff000-14edfe4206855%22%2C%22%24initial_referrer%22%3A%20%22%24direct%22%2C%22%24initial_referring_domain%22%3A%20%22%24direct%22%7D; _ga=GA1.1.1702455467.1437280017; hsfirstvisit=http%3A%2F%2Flocalhost%2Fscrapper%2Ftests%2Ftest.php||1438363203003; __distillery=v20150227_0cd23d29-3eda-4669-ae75-5f78f669caa8; __hstc=181257784.b4f1e3d1ed5cdcba3e78a2047e866c0a.1438363203009.1438363203009.1438496204406.2; hubspotutk=b4f1e3d1ed5cdcba3e78a2047e866c0a; _csrf=3c0dbdea11557006263ddde0683a2436fea7a8ca7d47052f98e279417c8a5512a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22etl6ymsqmASuMiX2W38ektgpNBYwXRpz%22%3B%7D; _identity=88529ed87e551622f2cabb990f392b5f3d7f27e2a9ca8aa5bf07f1c016b06741a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%2266Q7983hLkvU0h7VjddqiAVIRAbWmVJ8%22%2C2592000%5D%22%3B%7D; PHPSESSID=5s284r1hjb105rv2bkqea227i1'
+    'PATH' => 'C:\\Program Files\\Java\\jdk1.8.0_45\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Git\\cmd;c:\\xampp\\php;C:\\Program Files\\subversion\\bin;C:\\Program Files\\Java\\jre1.8.0_45\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/test/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '51733'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'REQUEST_URI' => '/test/advanced/backend/web/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/test/advanced/backend/web/index.php'
+    'PHP_SELF' => '/test/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1445122414.044
+    'REQUEST_TIME' => 1445122414
+]
+2015-10-18 00:57:45 [::1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: _SESSION' in C:\xampp\htdocs\test\advanced\backend\controllers\SiteController.php:64
+Stack trace:
+#0 C:\xampp\htdocs\test\advanced\backend\controllers\SiteController.php(64): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 64, Array)
+#1 [internal function]: backend\controllers\SiteController->actionLogin()
+#2 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('login', Array)
+#5 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/login', Array)
+#6 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 C:\xampp\htdocs\test\advanced\backend\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2015-10-18 00:57:44 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    '__atuvc' => '2|29'
+    'ajs_user_id' => 'null'
+    'ajs_group_id' => 'null'
+    'mp_b0bec09f10951d12fcd8c74ab4983f52_mixpanel' => '{\"distinct_id\": \"14edfe4206760-0a6399ad7-434c062d-ff000-14edfe4206855\",\"$initial_referrer\": \"$direct\",\"$initial_referring_domain\": \"$direct\"}'
+    '_ga' => 'GA1.1.1702455467.1437280017'
+    'hsfirstvisit' => 'http://localhost/scrapper/tests/test.php||1438363203003'
+    '__distillery' => 'v20150227_0cd23d29-3eda-4669-ae75-5f78f669caa8'
+    '__hstc' => '181257784.b4f1e3d1ed5cdcba3e78a2047e866c0a.1438363203009.1438363203009.1438496204406.2'
+    'hubspotutk' => 'b4f1e3d1ed5cdcba3e78a2047e866c0a'
+    '_csrf' => '3c0dbdea11557006263ddde0683a2436fea7a8ca7d47052f98e279417c8a5512a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"etl6ymsqmASuMiX2W38ektgpNBYwXRpz\";}'
+    '_identity' => '88529ed87e551622f2cabb990f392b5f3d7f27e2a9ca8aa5bf07f1c016b06741a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"66Q7983hLkvU0h7VjddqiAVIRAbWmVJ8\",2592000]\";}'
+    'PHPSESSID' => 'i2m385ibpdp3aic1mkkjemajs1'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/test/advanced/backend/web/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '__atuvc=2%7C29; ajs_user_id=null; ajs_group_id=null; mp_b0bec09f10951d12fcd8c74ab4983f52_mixpanel=%7B%22distinct_id%22%3A%20%2214edfe4206760-0a6399ad7-434c062d-ff000-14edfe4206855%22%2C%22%24initial_referrer%22%3A%20%22%24direct%22%2C%22%24initial_referring_domain%22%3A%20%22%24direct%22%7D; _ga=GA1.1.1702455467.1437280017; hsfirstvisit=http%3A%2F%2Flocalhost%2Fscrapper%2Ftests%2Ftest.php||1438363203003; __distillery=v20150227_0cd23d29-3eda-4669-ae75-5f78f669caa8; __hstc=181257784.b4f1e3d1ed5cdcba3e78a2047e866c0a.1438363203009.1438363203009.1438496204406.2; hubspotutk=b4f1e3d1ed5cdcba3e78a2047e866c0a; _csrf=3c0dbdea11557006263ddde0683a2436fea7a8ca7d47052f98e279417c8a5512a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22etl6ymsqmASuMiX2W38ektgpNBYwXRpz%22%3B%7D; _identity=88529ed87e551622f2cabb990f392b5f3d7f27e2a9ca8aa5bf07f1c016b06741a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%2266Q7983hLkvU0h7VjddqiAVIRAbWmVJ8%22%2C2592000%5D%22%3B%7D; PHPSESSID=i2m385ibpdp3aic1mkkjemajs1'
+    'PATH' => 'C:\\Program Files\\Java\\jdk1.8.0_45\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Git\\cmd;c:\\xampp\\php;C:\\Program Files\\subversion\\bin;C:\\Program Files\\Java\\jre1.8.0_45\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/test/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '51786'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/test/advanced/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/test/advanced/backend/web/index.php'
+    'PHP_SELF' => '/test/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1445122664.918
+    'REQUEST_TIME' => 1445122664
+]
+2015-10-18 01:00:57 [::1][1][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/logon' in C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('logon', Array)
+#1 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/logon', Array)
+#2 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\xampp\htdocs\test\advanced\backend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\test\advanced\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-10-18 01:00:57 [::1][1][-][info][application] $_GET = [
+    'r' => 'site/logon'
+]
+
+$_COOKIE = [
+    '__atuvc' => '2|29'
+    'ajs_user_id' => 'null'
+    'ajs_group_id' => 'null'
+    'mp_b0bec09f10951d12fcd8c74ab4983f52_mixpanel' => '{\"distinct_id\": \"14edfe4206760-0a6399ad7-434c062d-ff000-14edfe4206855\",\"$initial_referrer\": \"$direct\",\"$initial_referring_domain\": \"$direct\"}'
+    '_ga' => 'GA1.1.1702455467.1437280017'
+    'hsfirstvisit' => 'http://localhost/scrapper/tests/test.php||1438363203003'
+    '__distillery' => 'v20150227_0cd23d29-3eda-4669-ae75-5f78f669caa8'
+    '__hstc' => '181257784.b4f1e3d1ed5cdcba3e78a2047e866c0a.1438363203009.1438363203009.1438496204406.2'
+    'hubspotutk' => 'b4f1e3d1ed5cdcba3e78a2047e866c0a'
+    '_csrf' => '3c0dbdea11557006263ddde0683a2436fea7a8ca7d47052f98e279417c8a5512a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"etl6ymsqmASuMiX2W38ektgpNBYwXRpz\";}'
+    'PHPSESSID' => 'c74hfn21k9ibfhu7dbfa0pi975'
+    '_identity' => '88529ed87e551622f2cabb990f392b5f3d7f27e2a9ca8aa5bf07f1c016b06741a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"66Q7983hLkvU0h7VjddqiAVIRAbWmVJ8\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/test/advanced/backend/web/index.php?r=site%2Findex'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '__atuvc=2%7C29; ajs_user_id=null; ajs_group_id=null; mp_b0bec09f10951d12fcd8c74ab4983f52_mixpanel=%7B%22distinct_id%22%3A%20%2214edfe4206760-0a6399ad7-434c062d-ff000-14edfe4206855%22%2C%22%24initial_referrer%22%3A%20%22%24direct%22%2C%22%24initial_referring_domain%22%3A%20%22%24direct%22%7D; _ga=GA1.1.1702455467.1437280017; hsfirstvisit=http%3A%2F%2Flocalhost%2Fscrapper%2Ftests%2Ftest.php||1438363203003; __distillery=v20150227_0cd23d29-3eda-4669-ae75-5f78f669caa8; __hstc=181257784.b4f1e3d1ed5cdcba3e78a2047e866c0a.1438363203009.1438363203009.1438496204406.2; hubspotutk=b4f1e3d1ed5cdcba3e78a2047e866c0a; _csrf=3c0dbdea11557006263ddde0683a2436fea7a8ca7d47052f98e279417c8a5512a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22etl6ymsqmASuMiX2W38ektgpNBYwXRpz%22%3B%7D; PHPSESSID=c74hfn21k9ibfhu7dbfa0pi975; _identity=88529ed87e551622f2cabb990f392b5f3d7f27e2a9ca8aa5bf07f1c016b06741a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%2266Q7983hLkvU0h7VjddqiAVIRAbWmVJ8%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\Java\\jdk1.8.0_45\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Git\\cmd;c:\\xampp\\php;C:\\Program Files\\subversion\\bin;C:\\Program Files\\Java\\jre1.8.0_45\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/test/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '51810'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogon'
+    'REQUEST_URI' => '/test/advanced/backend/web/index.php?r=site%2Flogon'
+    'SCRIPT_NAME' => '/test/advanced/backend/web/index.php'
+    'PHP_SELF' => '/test/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1445122857.689
+    'REQUEST_TIME' => 1445122857
+]
+2015-10-18 01:31:33 [::1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'Session save path is not a valid directory: C:\xampp\htdocs\test\advanced\backend\configruntime/tmp' in C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\Session.php:306
+Stack trace:
+#0 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Component.php(169): yii\web\Session->setSavePath('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\BaseYii.php(518): yii\base\Component->__set('savePath', 'C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Object.php(105): yii\BaseYii::configure(Object(yii\web\Session), Array)
+#3 [internal function]: yii\base\Object->__construct(Array)
+#4 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\di\Container.php(372): ReflectionClass->newInstanceArgs(Array)
+#5 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\di\Container.php(151): yii\di\Container->build('yii\\web\\Session', Array, Array)
+#6 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('yii\\web\\Session', Array, Array)
+#7 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\di\ServiceLocator.php(133): yii\BaseYii::createObject(Array)
+#8 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\Application.php(132): yii\di\ServiceLocator->get('session')
+#9 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\User.php(606): yii\web\Application->getSession()
+#10 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\User.php(176): yii\web\User->renewAuthStatus()
+#11 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\User.php(346): yii\web\User->getIdentity()
+#12 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\filters\AccessRule.php(149): yii\web\User->getIsGuest()
+#13 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\filters\AccessRule.php(104): yii\filters\AccessRule->matchRole(Object(yii\web\User))
+#14 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\filters\AccessControl.php(118): yii\filters\AccessRule->allows(Object(yii\base\InlineAction), Object(yii\web\User), Object(yii\web\Request))
+#15 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\ActionFilter.php(71): yii\filters\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#16 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#17 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#18 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Controller.php(263): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#19 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#20 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#21 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#22 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/index', Array)
+#23 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#24 C:\xampp\htdocs\test\advanced\backend\web\index.php(18): yii\base\Application->run()
+#25 {main}
+2015-10-18 01:31:33 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_COOKIE = [
+    '__atuvc' => '2|29'
+    'ajs_user_id' => 'null'
+    'ajs_group_id' => 'null'
+    'mp_b0bec09f10951d12fcd8c74ab4983f52_mixpanel' => '{\"distinct_id\": \"14edfe4206760-0a6399ad7-434c062d-ff000-14edfe4206855\",\"$initial_referrer\": \"$direct\",\"$initial_referring_domain\": \"$direct\"}'
+    '_ga' => 'GA1.1.1702455467.1437280017'
+    'hsfirstvisit' => 'http://localhost/scrapper/tests/test.php||1438363203003'
+    '__distillery' => 'v20150227_0cd23d29-3eda-4669-ae75-5f78f669caa8'
+    '__hstc' => '181257784.b4f1e3d1ed5cdcba3e78a2047e866c0a.1438363203009.1438363203009.1438496204406.2'
+    'hubspotutk' => 'b4f1e3d1ed5cdcba3e78a2047e866c0a'
+    '_identity' => '9d6fd1ee16baf0ec5e983175486d83dbde6474ec45c81abfb029ca9e6695cbcaa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[3,\"WN1KF3igIENntlaQ2z0VaC04BmeSN1XW\",2592000]\";}'
+    'PHPSESSID' => '548vlco8ft653kvg7f5ams7gv4'
+    '_csrf' => '2e4621b6ffe7786aa1062051d58554c4c3b5fde92450895d178f65613c0ee40ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nLt3dAVQZBEivHG8s6oJGoR9iMyikPsc\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/test/advanced/backend/web/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '__atuvc=2%7C29; ajs_user_id=null; ajs_group_id=null; mp_b0bec09f10951d12fcd8c74ab4983f52_mixpanel=%7B%22distinct_id%22%3A%20%2214edfe4206760-0a6399ad7-434c062d-ff000-14edfe4206855%22%2C%22%24initial_referrer%22%3A%20%22%24direct%22%2C%22%24initial_referring_domain%22%3A%20%22%24direct%22%7D; _ga=GA1.1.1702455467.1437280017; hsfirstvisit=http%3A%2F%2Flocalhost%2Fscrapper%2Ftests%2Ftest.php||1438363203003; __distillery=v20150227_0cd23d29-3eda-4669-ae75-5f78f669caa8; __hstc=181257784.b4f1e3d1ed5cdcba3e78a2047e866c0a.1438363203009.1438363203009.1438496204406.2; hubspotutk=b4f1e3d1ed5cdcba3e78a2047e866c0a; _identity=9d6fd1ee16baf0ec5e983175486d83dbde6474ec45c81abfb029ca9e6695cbcaa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B3%2C%22WN1KF3igIENntlaQ2z0VaC04BmeSN1XW%22%2C2592000%5D%22%3B%7D; PHPSESSID=548vlco8ft653kvg7f5ams7gv4; _csrf=2e4621b6ffe7786aa1062051d58554c4c3b5fde92450895d178f65613c0ee40ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nLt3dAVQZBEivHG8s6oJGoR9iMyikPsc%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\Java\\jdk1.8.0_45\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Git\\cmd;c:\\xampp\\php;C:\\Program Files\\subversion\\bin;C:\\Program Files\\Java\\jre1.8.0_45\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/test/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '52146'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'REQUEST_URI' => '/test/advanced/backend/web/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/test/advanced/backend/web/index.php'
+    'PHP_SELF' => '/test/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1445124693.812
+    'REQUEST_TIME' => 1445124693
+]
+2015-10-18 01:31:53 [::1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'Session save path is not a valid directory: C:\xampp\htdocs\test\advanced\backend\config/runtime/tmp' in C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\Session.php:306
+Stack trace:
+#0 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Component.php(169): yii\web\Session->setSavePath('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\BaseYii.php(518): yii\base\Component->__set('savePath', 'C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Object.php(105): yii\BaseYii::configure(Object(yii\web\Session), Array)
+#3 [internal function]: yii\base\Object->__construct(Array)
+#4 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\di\Container.php(372): ReflectionClass->newInstanceArgs(Array)
+#5 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\di\Container.php(151): yii\di\Container->build('yii\\web\\Session', Array, Array)
+#6 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('yii\\web\\Session', Array, Array)
+#7 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\di\ServiceLocator.php(133): yii\BaseYii::createObject(Array)
+#8 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\Application.php(132): yii\di\ServiceLocator->get('session')
+#9 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\User.php(606): yii\web\Application->getSession()
+#10 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\User.php(176): yii\web\User->renewAuthStatus()
+#11 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\User.php(346): yii\web\User->getIdentity()
+#12 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\filters\AccessRule.php(149): yii\web\User->getIsGuest()
+#13 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\filters\AccessRule.php(104): yii\filters\AccessRule->matchRole(Object(yii\web\User))
+#14 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\filters\AccessControl.php(118): yii\filters\AccessRule->allows(Object(yii\base\InlineAction), Object(yii\web\User), Object(yii\web\Request))
+#15 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\ActionFilter.php(71): yii\filters\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#16 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#17 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#18 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Controller.php(263): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#19 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#20 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#21 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#22 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/index', Array)
+#23 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#24 C:\xampp\htdocs\test\advanced\backend\web\index.php(18): yii\base\Application->run()
+#25 {main}
+2015-10-18 01:31:53 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_COOKIE = [
+    '__atuvc' => '2|29'
+    'ajs_user_id' => 'null'
+    'ajs_group_id' => 'null'
+    'mp_b0bec09f10951d12fcd8c74ab4983f52_mixpanel' => '{\"distinct_id\": \"14edfe4206760-0a6399ad7-434c062d-ff000-14edfe4206855\",\"$initial_referrer\": \"$direct\",\"$initial_referring_domain\": \"$direct\"}'
+    '_ga' => 'GA1.1.1702455467.1437280017'
+    'hsfirstvisit' => 'http://localhost/scrapper/tests/test.php||1438363203003'
+    '__distillery' => 'v20150227_0cd23d29-3eda-4669-ae75-5f78f669caa8'
+    '__hstc' => '181257784.b4f1e3d1ed5cdcba3e78a2047e866c0a.1438363203009.1438363203009.1438496204406.2'
+    'hubspotutk' => 'b4f1e3d1ed5cdcba3e78a2047e866c0a'
+    '_identity' => '9d6fd1ee16baf0ec5e983175486d83dbde6474ec45c81abfb029ca9e6695cbcaa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[3,\"WN1KF3igIENntlaQ2z0VaC04BmeSN1XW\",2592000]\";}'
+    'PHPSESSID' => '548vlco8ft653kvg7f5ams7gv4'
+    '_csrf' => '2e4621b6ffe7786aa1062051d58554c4c3b5fde92450895d178f65613c0ee40ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nLt3dAVQZBEivHG8s6oJGoR9iMyikPsc\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/test/advanced/backend/web/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '__atuvc=2%7C29; ajs_user_id=null; ajs_group_id=null; mp_b0bec09f10951d12fcd8c74ab4983f52_mixpanel=%7B%22distinct_id%22%3A%20%2214edfe4206760-0a6399ad7-434c062d-ff000-14edfe4206855%22%2C%22%24initial_referrer%22%3A%20%22%24direct%22%2C%22%24initial_referring_domain%22%3A%20%22%24direct%22%7D; _ga=GA1.1.1702455467.1437280017; hsfirstvisit=http%3A%2F%2Flocalhost%2Fscrapper%2Ftests%2Ftest.php||1438363203003; __distillery=v20150227_0cd23d29-3eda-4669-ae75-5f78f669caa8; __hstc=181257784.b4f1e3d1ed5cdcba3e78a2047e866c0a.1438363203009.1438363203009.1438496204406.2; hubspotutk=b4f1e3d1ed5cdcba3e78a2047e866c0a; _identity=9d6fd1ee16baf0ec5e983175486d83dbde6474ec45c81abfb029ca9e6695cbcaa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B3%2C%22WN1KF3igIENntlaQ2z0VaC04BmeSN1XW%22%2C2592000%5D%22%3B%7D; PHPSESSID=548vlco8ft653kvg7f5ams7gv4; _csrf=2e4621b6ffe7786aa1062051d58554c4c3b5fde92450895d178f65613c0ee40ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nLt3dAVQZBEivHG8s6oJGoR9iMyikPsc%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\Java\\jdk1.8.0_45\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Git\\cmd;c:\\xampp\\php;C:\\Program Files\\subversion\\bin;C:\\Program Files\\Java\\jre1.8.0_45\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/test/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '52150'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'REQUEST_URI' => '/test/advanced/backend/web/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/test/advanced/backend/web/index.php'
+    'PHP_SELF' => '/test/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1445124713.041
+    'REQUEST_TIME' => 1445124713
+]
+2015-10-18 01:32:27 [::1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'Session save path is not a valid directory: C:\xampp\htdocs\test\advanced\backend\config\runtime\tmp' in C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\Session.php:306
+Stack trace:
+#0 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Component.php(169): yii\web\Session->setSavePath('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\BaseYii.php(518): yii\base\Component->__set('savePath', 'C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Object.php(105): yii\BaseYii::configure(Object(yii\web\Session), Array)
+#3 [internal function]: yii\base\Object->__construct(Array)
+#4 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\di\Container.php(372): ReflectionClass->newInstanceArgs(Array)
+#5 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\di\Container.php(151): yii\di\Container->build('yii\\web\\Session', Array, Array)
+#6 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('yii\\web\\Session', Array, Array)
+#7 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\di\ServiceLocator.php(133): yii\BaseYii::createObject(Array)
+#8 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\Application.php(132): yii\di\ServiceLocator->get('session')
+#9 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\User.php(606): yii\web\Application->getSession()
+#10 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\User.php(176): yii\web\User->renewAuthStatus()
+#11 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\User.php(346): yii\web\User->getIdentity()
+#12 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\filters\AccessRule.php(149): yii\web\User->getIsGuest()
+#13 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\filters\AccessRule.php(104): yii\filters\AccessRule->matchRole(Object(yii\web\User))
+#14 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\filters\AccessControl.php(118): yii\filters\AccessRule->allows(Object(yii\base\InlineAction), Object(yii\web\User), Object(yii\web\Request))
+#15 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\ActionFilter.php(71): yii\filters\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#16 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#17 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#18 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Controller.php(263): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#19 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#20 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#21 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#22 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/index', Array)
+#23 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#24 C:\xampp\htdocs\test\advanced\backend\web\index.php(18): yii\base\Application->run()
+#25 {main}
+2015-10-18 01:32:27 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_COOKIE = [
+    '__atuvc' => '2|29'
+    'ajs_user_id' => 'null'
+    'ajs_group_id' => 'null'
+    'mp_b0bec09f10951d12fcd8c74ab4983f52_mixpanel' => '{\"distinct_id\": \"14edfe4206760-0a6399ad7-434c062d-ff000-14edfe4206855\",\"$initial_referrer\": \"$direct\",\"$initial_referring_domain\": \"$direct\"}'
+    '_ga' => 'GA1.1.1702455467.1437280017'
+    'hsfirstvisit' => 'http://localhost/scrapper/tests/test.php||1438363203003'
+    '__distillery' => 'v20150227_0cd23d29-3eda-4669-ae75-5f78f669caa8'
+    '__hstc' => '181257784.b4f1e3d1ed5cdcba3e78a2047e866c0a.1438363203009.1438363203009.1438496204406.2'
+    'hubspotutk' => 'b4f1e3d1ed5cdcba3e78a2047e866c0a'
+    '_identity' => '9d6fd1ee16baf0ec5e983175486d83dbde6474ec45c81abfb029ca9e6695cbcaa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[3,\"WN1KF3igIENntlaQ2z0VaC04BmeSN1XW\",2592000]\";}'
+    'PHPSESSID' => '548vlco8ft653kvg7f5ams7gv4'
+    '_csrf' => '2e4621b6ffe7786aa1062051d58554c4c3b5fde92450895d178f65613c0ee40ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nLt3dAVQZBEivHG8s6oJGoR9iMyikPsc\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/test/advanced/backend/web/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '__atuvc=2%7C29; ajs_user_id=null; ajs_group_id=null; mp_b0bec09f10951d12fcd8c74ab4983f52_mixpanel=%7B%22distinct_id%22%3A%20%2214edfe4206760-0a6399ad7-434c062d-ff000-14edfe4206855%22%2C%22%24initial_referrer%22%3A%20%22%24direct%22%2C%22%24initial_referring_domain%22%3A%20%22%24direct%22%7D; _ga=GA1.1.1702455467.1437280017; hsfirstvisit=http%3A%2F%2Flocalhost%2Fscrapper%2Ftests%2Ftest.php||1438363203003; __distillery=v20150227_0cd23d29-3eda-4669-ae75-5f78f669caa8; __hstc=181257784.b4f1e3d1ed5cdcba3e78a2047e866c0a.1438363203009.1438363203009.1438496204406.2; hubspotutk=b4f1e3d1ed5cdcba3e78a2047e866c0a; _identity=9d6fd1ee16baf0ec5e983175486d83dbde6474ec45c81abfb029ca9e6695cbcaa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B3%2C%22WN1KF3igIENntlaQ2z0VaC04BmeSN1XW%22%2C2592000%5D%22%3B%7D; PHPSESSID=548vlco8ft653kvg7f5ams7gv4; _csrf=2e4621b6ffe7786aa1062051d58554c4c3b5fde92450895d178f65613c0ee40ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nLt3dAVQZBEivHG8s6oJGoR9iMyikPsc%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\Java\\jdk1.8.0_45\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Git\\cmd;c:\\xampp\\php;C:\\Program Files\\subversion\\bin;C:\\Program Files\\Java\\jre1.8.0_45\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/test/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '52152'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'REQUEST_URI' => '/test/advanced/backend/web/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/test/advanced/backend/web/index.php'
+    'PHP_SELF' => '/test/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1445124747.674
+    'REQUEST_TIME' => 1445124747
+]
+2015-10-18 01:32:28 [::1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'Session save path is not a valid directory: C:\xampp\htdocs\test\advanced\backend\config\runtime\tmp' in C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\Session.php:306
+Stack trace:
+#0 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Component.php(169): yii\web\Session->setSavePath('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\BaseYii.php(518): yii\base\Component->__set('savePath', 'C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Object.php(105): yii\BaseYii::configure(Object(yii\web\Session), Array)
+#3 [internal function]: yii\base\Object->__construct(Array)
+#4 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\di\Container.php(372): ReflectionClass->newInstanceArgs(Array)
+#5 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\di\Container.php(151): yii\di\Container->build('yii\\web\\Session', Array, Array)
+#6 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('yii\\web\\Session', Array, Array)
+#7 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\di\ServiceLocator.php(133): yii\BaseYii::createObject(Array)
+#8 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\Application.php(132): yii\di\ServiceLocator->get('session')
+#9 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\User.php(606): yii\web\Application->getSession()
+#10 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\User.php(176): yii\web\User->renewAuthStatus()
+#11 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\User.php(346): yii\web\User->getIdentity()
+#12 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\filters\AccessRule.php(149): yii\web\User->getIsGuest()
+#13 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\filters\AccessRule.php(104): yii\filters\AccessRule->matchRole(Object(yii\web\User))
+#14 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\filters\AccessControl.php(118): yii\filters\AccessRule->allows(Object(yii\base\InlineAction), Object(yii\web\User), Object(yii\web\Request))
+#15 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\ActionFilter.php(71): yii\filters\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#16 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#17 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#18 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Controller.php(263): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#19 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#20 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#21 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#22 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/index', Array)
+#23 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#24 C:\xampp\htdocs\test\advanced\backend\web\index.php(18): yii\base\Application->run()
+#25 {main}
+2015-10-18 01:32:28 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_COOKIE = [
+    '__atuvc' => '2|29'
+    'ajs_user_id' => 'null'
+    'ajs_group_id' => 'null'
+    'mp_b0bec09f10951d12fcd8c74ab4983f52_mixpanel' => '{\"distinct_id\": \"14edfe4206760-0a6399ad7-434c062d-ff000-14edfe4206855\",\"$initial_referrer\": \"$direct\",\"$initial_referring_domain\": \"$direct\"}'
+    '_ga' => 'GA1.1.1702455467.1437280017'
+    'hsfirstvisit' => 'http://localhost/scrapper/tests/test.php||1438363203003'
+    '__distillery' => 'v20150227_0cd23d29-3eda-4669-ae75-5f78f669caa8'
+    '__hstc' => '181257784.b4f1e3d1ed5cdcba3e78a2047e866c0a.1438363203009.1438363203009.1438496204406.2'
+    'hubspotutk' => 'b4f1e3d1ed5cdcba3e78a2047e866c0a'
+    '_identity' => '9d6fd1ee16baf0ec5e983175486d83dbde6474ec45c81abfb029ca9e6695cbcaa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[3,\"WN1KF3igIENntlaQ2z0VaC04BmeSN1XW\",2592000]\";}'
+    'PHPSESSID' => '548vlco8ft653kvg7f5ams7gv4'
+    '_csrf' => '2e4621b6ffe7786aa1062051d58554c4c3b5fde92450895d178f65613c0ee40ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nLt3dAVQZBEivHG8s6oJGoR9iMyikPsc\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/test/advanced/backend/web/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '__atuvc=2%7C29; ajs_user_id=null; ajs_group_id=null; mp_b0bec09f10951d12fcd8c74ab4983f52_mixpanel=%7B%22distinct_id%22%3A%20%2214edfe4206760-0a6399ad7-434c062d-ff000-14edfe4206855%22%2C%22%24initial_referrer%22%3A%20%22%24direct%22%2C%22%24initial_referring_domain%22%3A%20%22%24direct%22%7D; _ga=GA1.1.1702455467.1437280017; hsfirstvisit=http%3A%2F%2Flocalhost%2Fscrapper%2Ftests%2Ftest.php||1438363203003; __distillery=v20150227_0cd23d29-3eda-4669-ae75-5f78f669caa8; __hstc=181257784.b4f1e3d1ed5cdcba3e78a2047e866c0a.1438363203009.1438363203009.1438496204406.2; hubspotutk=b4f1e3d1ed5cdcba3e78a2047e866c0a; _identity=9d6fd1ee16baf0ec5e983175486d83dbde6474ec45c81abfb029ca9e6695cbcaa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B3%2C%22WN1KF3igIENntlaQ2z0VaC04BmeSN1XW%22%2C2592000%5D%22%3B%7D; PHPSESSID=548vlco8ft653kvg7f5ams7gv4; _csrf=2e4621b6ffe7786aa1062051d58554c4c3b5fde92450895d178f65613c0ee40ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nLt3dAVQZBEivHG8s6oJGoR9iMyikPsc%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\Java\\jdk1.8.0_45\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Git\\cmd;c:\\xampp\\php;C:\\Program Files\\subversion\\bin;C:\\Program Files\\Java\\jre1.8.0_45\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/test/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '52154'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'REQUEST_URI' => '/test/advanced/backend/web/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/test/advanced/backend/web/index.php'
+    'PHP_SELF' => '/test/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1445124748.235
+    'REQUEST_TIME' => 1445124748
+]
+2015-10-18 01:34:26 [::1][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class CDbHttpSession does not exist' in C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\di\Container.php:415
+Stack trace:
+#0 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\di\Container.php(415): ReflectionClass->__construct('CDbHttpSession')
+#1 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\di\Container.php(358): yii\di\Container->getDependencies('CDbHttpSession')
+#2 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\di\Container.php(151): yii\di\Container->build('CDbHttpSession', Array, Array)
+#3 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('CDbHttpSession', Array, Array)
+#4 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\di\ServiceLocator.php(133): yii\BaseYii::createObject(Array)
+#5 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\Application.php(132): yii\di\ServiceLocator->get('session')
+#6 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\User.php(606): yii\web\Application->getSession()
+#7 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\User.php(176): yii\web\User->renewAuthStatus()
+#8 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\User.php(346): yii\web\User->getIdentity()
+#9 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\filters\AccessRule.php(149): yii\web\User->getIsGuest()
+#10 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\filters\AccessRule.php(104): yii\filters\AccessRule->matchRole(Object(yii\web\User))
+#11 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\filters\AccessControl.php(118): yii\filters\AccessRule->allows(Object(yii\base\InlineAction), Object(yii\web\User), Object(yii\web\Request))
+#12 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\ActionFilter.php(71): yii\filters\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#13 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#14 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#15 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Controller.php(263): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#16 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#17 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#18 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#19 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/index', Array)
+#20 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#21 C:\xampp\htdocs\test\advanced\backend\web\index.php(18): yii\base\Application->run()
+#22 {main}
+2015-10-18 01:34:26 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_COOKIE = [
+    '__atuvc' => '2|29'
+    'ajs_user_id' => 'null'
+    'ajs_group_id' => 'null'
+    'mp_b0bec09f10951d12fcd8c74ab4983f52_mixpanel' => '{\"distinct_id\": \"14edfe4206760-0a6399ad7-434c062d-ff000-14edfe4206855\",\"$initial_referrer\": \"$direct\",\"$initial_referring_domain\": \"$direct\"}'
+    '_ga' => 'GA1.1.1702455467.1437280017'
+    'hsfirstvisit' => 'http://localhost/scrapper/tests/test.php||1438363203003'
+    '__distillery' => 'v20150227_0cd23d29-3eda-4669-ae75-5f78f669caa8'
+    '__hstc' => '181257784.b4f1e3d1ed5cdcba3e78a2047e866c0a.1438363203009.1438363203009.1438496204406.2'
+    'hubspotutk' => 'b4f1e3d1ed5cdcba3e78a2047e866c0a'
+    '_identity' => '9d6fd1ee16baf0ec5e983175486d83dbde6474ec45c81abfb029ca9e6695cbcaa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[3,\"WN1KF3igIENntlaQ2z0VaC04BmeSN1XW\",2592000]\";}'
+    'PHPSESSID' => '548vlco8ft653kvg7f5ams7gv4'
+    '_csrf' => '2e4621b6ffe7786aa1062051d58554c4c3b5fde92450895d178f65613c0ee40ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nLt3dAVQZBEivHG8s6oJGoR9iMyikPsc\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/test/advanced/backend/web/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '__atuvc=2%7C29; ajs_user_id=null; ajs_group_id=null; mp_b0bec09f10951d12fcd8c74ab4983f52_mixpanel=%7B%22distinct_id%22%3A%20%2214edfe4206760-0a6399ad7-434c062d-ff000-14edfe4206855%22%2C%22%24initial_referrer%22%3A%20%22%24direct%22%2C%22%24initial_referring_domain%22%3A%20%22%24direct%22%7D; _ga=GA1.1.1702455467.1437280017; hsfirstvisit=http%3A%2F%2Flocalhost%2Fscrapper%2Ftests%2Ftest.php||1438363203003; __distillery=v20150227_0cd23d29-3eda-4669-ae75-5f78f669caa8; __hstc=181257784.b4f1e3d1ed5cdcba3e78a2047e866c0a.1438363203009.1438363203009.1438496204406.2; hubspotutk=b4f1e3d1ed5cdcba3e78a2047e866c0a; _identity=9d6fd1ee16baf0ec5e983175486d83dbde6474ec45c81abfb029ca9e6695cbcaa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B3%2C%22WN1KF3igIENntlaQ2z0VaC04BmeSN1XW%22%2C2592000%5D%22%3B%7D; PHPSESSID=548vlco8ft653kvg7f5ams7gv4; _csrf=2e4621b6ffe7786aa1062051d58554c4c3b5fde92450895d178f65613c0ee40ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nLt3dAVQZBEivHG8s6oJGoR9iMyikPsc%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\Java\\jdk1.8.0_45\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Git\\cmd;c:\\xampp\\php;C:\\Program Files\\subversion\\bin;C:\\Program Files\\Java\\jre1.8.0_45\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/test/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '52157'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'REQUEST_URI' => '/test/advanced/backend/web/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/test/advanced/backend/web/index.php'
+    'PHP_SELF' => '/test/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1445124866.081
+    'REQUEST_TIME' => 1445124866
+]
+2015-10-18 01:34:37 [::1][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class DbHttpSession does not exist' in C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\di\Container.php:415
+Stack trace:
+#0 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\di\Container.php(415): ReflectionClass->__construct('DbHttpSession')
+#1 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\di\Container.php(358): yii\di\Container->getDependencies('DbHttpSession')
+#2 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\di\Container.php(151): yii\di\Container->build('DbHttpSession', Array, Array)
+#3 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('DbHttpSession', Array, Array)
+#4 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\di\ServiceLocator.php(133): yii\BaseYii::createObject(Array)
+#5 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\Application.php(132): yii\di\ServiceLocator->get('session')
+#6 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\User.php(606): yii\web\Application->getSession()
+#7 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\User.php(176): yii\web\User->renewAuthStatus()
+#8 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\User.php(346): yii\web\User->getIdentity()
+#9 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\filters\AccessRule.php(149): yii\web\User->getIsGuest()
+#10 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\filters\AccessRule.php(104): yii\filters\AccessRule->matchRole(Object(yii\web\User))
+#11 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\filters\AccessControl.php(118): yii\filters\AccessRule->allows(Object(yii\base\InlineAction), Object(yii\web\User), Object(yii\web\Request))
+#12 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\ActionFilter.php(71): yii\filters\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#13 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#14 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#15 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Controller.php(263): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#16 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#17 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#18 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#19 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/index', Array)
+#20 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#21 C:\xampp\htdocs\test\advanced\backend\web\index.php(18): yii\base\Application->run()
+#22 {main}
+2015-10-18 01:34:37 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_COOKIE = [
+    '__atuvc' => '2|29'
+    'ajs_user_id' => 'null'
+    'ajs_group_id' => 'null'
+    'mp_b0bec09f10951d12fcd8c74ab4983f52_mixpanel' => '{\"distinct_id\": \"14edfe4206760-0a6399ad7-434c062d-ff000-14edfe4206855\",\"$initial_referrer\": \"$direct\",\"$initial_referring_domain\": \"$direct\"}'
+    '_ga' => 'GA1.1.1702455467.1437280017'
+    'hsfirstvisit' => 'http://localhost/scrapper/tests/test.php||1438363203003'
+    '__distillery' => 'v20150227_0cd23d29-3eda-4669-ae75-5f78f669caa8'
+    '__hstc' => '181257784.b4f1e3d1ed5cdcba3e78a2047e866c0a.1438363203009.1438363203009.1438496204406.2'
+    'hubspotutk' => 'b4f1e3d1ed5cdcba3e78a2047e866c0a'
+    '_identity' => '9d6fd1ee16baf0ec5e983175486d83dbde6474ec45c81abfb029ca9e6695cbcaa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[3,\"WN1KF3igIENntlaQ2z0VaC04BmeSN1XW\",2592000]\";}'
+    'PHPSESSID' => '548vlco8ft653kvg7f5ams7gv4'
+    '_csrf' => '2e4621b6ffe7786aa1062051d58554c4c3b5fde92450895d178f65613c0ee40ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nLt3dAVQZBEivHG8s6oJGoR9iMyikPsc\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/test/advanced/backend/web/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '__atuvc=2%7C29; ajs_user_id=null; ajs_group_id=null; mp_b0bec09f10951d12fcd8c74ab4983f52_mixpanel=%7B%22distinct_id%22%3A%20%2214edfe4206760-0a6399ad7-434c062d-ff000-14edfe4206855%22%2C%22%24initial_referrer%22%3A%20%22%24direct%22%2C%22%24initial_referring_domain%22%3A%20%22%24direct%22%7D; _ga=GA1.1.1702455467.1437280017; hsfirstvisit=http%3A%2F%2Flocalhost%2Fscrapper%2Ftests%2Ftest.php||1438363203003; __distillery=v20150227_0cd23d29-3eda-4669-ae75-5f78f669caa8; __hstc=181257784.b4f1e3d1ed5cdcba3e78a2047e866c0a.1438363203009.1438363203009.1438496204406.2; hubspotutk=b4f1e3d1ed5cdcba3e78a2047e866c0a; _identity=9d6fd1ee16baf0ec5e983175486d83dbde6474ec45c81abfb029ca9e6695cbcaa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B3%2C%22WN1KF3igIENntlaQ2z0VaC04BmeSN1XW%22%2C2592000%5D%22%3B%7D; PHPSESSID=548vlco8ft653kvg7f5ams7gv4; _csrf=2e4621b6ffe7786aa1062051d58554c4c3b5fde92450895d178f65613c0ee40ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nLt3dAVQZBEivHG8s6oJGoR9iMyikPsc%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\Java\\jdk1.8.0_45\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Git\\cmd;c:\\xampp\\php;C:\\Program Files\\subversion\\bin;C:\\Program Files\\Java\\jre1.8.0_45\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/test/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '52160'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'REQUEST_URI' => '/test/advanced/backend/web/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/test/advanced/backend/web/index.php'
+    'PHP_SELF' => '/test/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1445124877.668
+    'REQUEST_TIME' => 1445124877
+]
+2015-10-18 01:37:06 [::1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Setting unknown property: yii\web\Session::session' in C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Component.php:197
+Stack trace:
+#0 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\BaseYii.php(518): yii\base\Component->__set('session', Array)
+#1 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Object.php(105): yii\BaseYii::configure(Object(yii\web\Session), Array)
+#2 [internal function]: yii\base\Object->__construct(Array)
+#3 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\di\Container.php(372): ReflectionClass->newInstanceArgs(Array)
+#4 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\di\Container.php(151): yii\di\Container->build('yii\\web\\Session', Array, Array)
+#5 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('yii\\web\\Session', Array, Array)
+#6 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\di\ServiceLocator.php(133): yii\BaseYii::createObject(Array)
+#7 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\Application.php(132): yii\di\ServiceLocator->get('session')
+#8 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\User.php(606): yii\web\Application->getSession()
+#9 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\User.php(176): yii\web\User->renewAuthStatus()
+#10 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\User.php(346): yii\web\User->getIdentity()
+#11 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\filters\AccessRule.php(149): yii\web\User->getIsGuest()
+#12 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\filters\AccessRule.php(104): yii\filters\AccessRule->matchRole(Object(yii\web\User))
+#13 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\filters\AccessControl.php(118): yii\filters\AccessRule->allows(Object(yii\base\InlineAction), Object(yii\web\User), Object(yii\web\Request))
+#14 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\ActionFilter.php(71): yii\filters\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#15 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#16 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#17 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Controller.php(263): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#18 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#19 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#20 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#21 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/index', Array)
+#22 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#23 C:\xampp\htdocs\test\advanced\backend\web\index.php(18): yii\base\Application->run()
+#24 {main}
+2015-10-18 01:37:06 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_COOKIE = [
+    '__atuvc' => '2|29'
+    'ajs_user_id' => 'null'
+    'ajs_group_id' => 'null'
+    'mp_b0bec09f10951d12fcd8c74ab4983f52_mixpanel' => '{\"distinct_id\": \"14edfe4206760-0a6399ad7-434c062d-ff000-14edfe4206855\",\"$initial_referrer\": \"$direct\",\"$initial_referring_domain\": \"$direct\"}'
+    '_ga' => 'GA1.1.1702455467.1437280017'
+    'hsfirstvisit' => 'http://localhost/scrapper/tests/test.php||1438363203003'
+    '__distillery' => 'v20150227_0cd23d29-3eda-4669-ae75-5f78f669caa8'
+    '__hstc' => '181257784.b4f1e3d1ed5cdcba3e78a2047e866c0a.1438363203009.1438363203009.1438496204406.2'
+    'hubspotutk' => 'b4f1e3d1ed5cdcba3e78a2047e866c0a'
+    '_identity' => '9d6fd1ee16baf0ec5e983175486d83dbde6474ec45c81abfb029ca9e6695cbcaa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[3,\"WN1KF3igIENntlaQ2z0VaC04BmeSN1XW\",2592000]\";}'
+    'PHPSESSID' => '548vlco8ft653kvg7f5ams7gv4'
+    '_csrf' => '2e4621b6ffe7786aa1062051d58554c4c3b5fde92450895d178f65613c0ee40ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nLt3dAVQZBEivHG8s6oJGoR9iMyikPsc\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/test/advanced/backend/web/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '__atuvc=2%7C29; ajs_user_id=null; ajs_group_id=null; mp_b0bec09f10951d12fcd8c74ab4983f52_mixpanel=%7B%22distinct_id%22%3A%20%2214edfe4206760-0a6399ad7-434c062d-ff000-14edfe4206855%22%2C%22%24initial_referrer%22%3A%20%22%24direct%22%2C%22%24initial_referring_domain%22%3A%20%22%24direct%22%7D; _ga=GA1.1.1702455467.1437280017; hsfirstvisit=http%3A%2F%2Flocalhost%2Fscrapper%2Ftests%2Ftest.php||1438363203003; __distillery=v20150227_0cd23d29-3eda-4669-ae75-5f78f669caa8; __hstc=181257784.b4f1e3d1ed5cdcba3e78a2047e866c0a.1438363203009.1438363203009.1438496204406.2; hubspotutk=b4f1e3d1ed5cdcba3e78a2047e866c0a; _identity=9d6fd1ee16baf0ec5e983175486d83dbde6474ec45c81abfb029ca9e6695cbcaa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B3%2C%22WN1KF3igIENntlaQ2z0VaC04BmeSN1XW%22%2C2592000%5D%22%3B%7D; PHPSESSID=548vlco8ft653kvg7f5ams7gv4; _csrf=2e4621b6ffe7786aa1062051d58554c4c3b5fde92450895d178f65613c0ee40ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nLt3dAVQZBEivHG8s6oJGoR9iMyikPsc%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\Java\\jdk1.8.0_45\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Git\\cmd;c:\\xampp\\php;C:\\Program Files\\subversion\\bin;C:\\Program Files\\Java\\jre1.8.0_45\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/test/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '52191'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'REQUEST_URI' => '/test/advanced/backend/web/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/test/advanced/backend/web/index.php'
+    'PHP_SELF' => '/test/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1445125026.828
+    'REQUEST_TIME' => 1445125026
+]
+2015-10-18 01:41:54 [::1][-][-][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Unable to verify your data submission.' in C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\Controller.php:110
+Stack trace:
+#0 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('login', Array)
+#2 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/login', Array)
+#3 C:\xampp\htdocs\test\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 C:\xampp\htdocs\test\advanced\backend\web\index.php(18): yii\base\Application->run()
+#5 {main}
+2015-10-18 01:41:54 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = [
+    '_csrf' => 'YWxFNDE5T2gmFXdxfH8ZXUxBNl1cUH8iJjwuflsNDlARPilhAnMqKQ=='
+    'LoginForm' => [
+        'email' => 'admin@todooli.com'
+        'password' => '111111'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_COOKIE = [
+    '__atuvc' => '2|29'
+    'ajs_user_id' => 'null'
+    'ajs_group_id' => 'null'
+    'mp_b0bec09f10951d12fcd8c74ab4983f52_mixpanel' => '{\"distinct_id\": \"14edfe4206760-0a6399ad7-434c062d-ff000-14edfe4206855\",\"$initial_referrer\": \"$direct\",\"$initial_referring_domain\": \"$direct\"}'
+    '_ga' => 'GA1.1.1702455467.1437280017'
+    'hsfirstvisit' => 'http://localhost/scrapper/tests/test.php||1438363203003'
+    '__distillery' => 'v20150227_0cd23d29-3eda-4669-ae75-5f78f669caa8'
+    '__hstc' => '181257784.b4f1e3d1ed5cdcba3e78a2047e866c0a.1438363203009.1438363203009.1438496204406.2'
+    'hubspotutk' => 'b4f1e3d1ed5cdcba3e78a2047e866c0a'
+    'PHPFRONTSESSID' => 'im1mbg4e6vuq975d3jl4ladib1'
+    '_csrf' => '2f38db460c1ebf5d80ffde5d0c626991f614c5d7fa62d6aa0842845f11395ec0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wtZ74MmEpCVg-4DVLURE_T6g3ITPsGmf\";}'
+    'PHPSESSID' => 'ad8h7b7sl7kc6shoipvi2333f4'
+    '_identity' => '09175bb82ecaeec28719fba81525211feae47b2f0e10f9573ccac2662c15a3b6a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"66Q7983hLkvU0h7VjddqiAVIRAbWmVJ8\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'frontend__id' => 2
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '208'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://localhost/test/advanced/backend/web/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '__atuvc=2%7C29; ajs_user_id=null; ajs_group_id=null; mp_b0bec09f10951d12fcd8c74ab4983f52_mixpanel=%7B%22distinct_id%22%3A%20%2214edfe4206760-0a6399ad7-434c062d-ff000-14edfe4206855%22%2C%22%24initial_referrer%22%3A%20%22%24direct%22%2C%22%24initial_referring_domain%22%3A%20%22%24direct%22%7D; _ga=GA1.1.1702455467.1437280017; hsfirstvisit=http%3A%2F%2Flocalhost%2Fscrapper%2Ftests%2Ftest.php||1438363203003; __distillery=v20150227_0cd23d29-3eda-4669-ae75-5f78f669caa8; __hstc=181257784.b4f1e3d1ed5cdcba3e78a2047e866c0a.1438363203009.1438363203009.1438496204406.2; hubspotutk=b4f1e3d1ed5cdcba3e78a2047e866c0a; PHPFRONTSESSID=im1mbg4e6vuq975d3jl4ladib1; _csrf=2f38db460c1ebf5d80ffde5d0c626991f614c5d7fa62d6aa0842845f11395ec0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wtZ74MmEpCVg-4DVLURE_T6g3ITPsGmf%22%3B%7D; PHPSESSID=ad8h7b7sl7kc6shoipvi2333f4; _identity=09175bb82ecaeec28719fba81525211feae47b2f0e10f9573ccac2662c15a3b6a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%2266Q7983hLkvU0h7VjddqiAVIRAbWmVJ8%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\Java\\jdk1.8.0_45\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Git\\cmd;c:\\xampp\\php;C:\\Program Files\\subversion\\bin;C:\\Program Files\\Java\\jre1.8.0_45\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/test/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '52272'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/test/advanced/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/test/advanced/backend/web/index.php'
+    'PHP_SELF' => '/test/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1445125314.591
+    'REQUEST_TIME' => 1445125314
+]
