@@ -34,7 +34,7 @@ return [
                 'class' => 'Swift_SmtpTransport',
                 'host' => 'smtp.gmail.com',
                 'username' => 'alaxander365@gmail.com',
-                'password' => 'infinity3939',
+                'password' => 'obj.data0',
                 'port' => '587',
                 'encryption' => 'tls',
             ],
